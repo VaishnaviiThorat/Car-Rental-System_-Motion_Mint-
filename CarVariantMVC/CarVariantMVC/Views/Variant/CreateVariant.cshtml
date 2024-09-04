@@ -1,0 +1,215 @@
+﻿@model CarVariantMVC.Models.VariantViewModel
+
+@{
+    ViewData["Title"] = "Create Variant";
+    Layout = null;
+}
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Create Variant</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" />
+</head>
+<body>
+
+    @Html.Partial("_AdminNavbar") <!-- Include the admin navbar -->
+
+    <div id="content" class="flex-grow-1 p-4">
+        <div class="container mt-4">
+            <h2 style="color:white">Create Variant</h2>
+
+            <div class="card border-primary">
+                <div class="card-body">
+                    <form asp-action="Create" enctype="multipart/form-data" method="post">
+                        <div class="row">
+                            <div class="col-md-6">
+                                <div class="form-group">
+                                    <label asp-for="CompanyId">Select Company</label>
+                                    <select asp-for="CompanyId" class="form-control" asp-items="ViewBag.CompanyList">
+                                        <option value="">-- Select Company --</option>
+                                    </select>
+                                    <span asp-validation-for="CompanyId" class="text-danger"></span>
+                                </div>
+                            </div>
+                            <div class="col-md-6">
+                                <div class="form-group">
+                                    <label asp-for="Name">Name</label>
+                                    <input asp-for="Name" class="form-control" />
+                                    <span asp-validation-for="Name" class="text-danger"></span>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="row">
+                            <div class="col-md-6">
+                                <div class="form-group">
+                                    <label asp-for="ModelNumber">Model Number</label>
+                                    <input asp-for="ModelNumber" class="form-control" />
+                                    <span asp-validation-for="ModelNumber" class="text-danger"></span>
+                                </div>
+                            </div>
+                            <div class="col-md-6">
+                                <div class="form-group">
+                                    <label asp-for="FuelType">Fuel Type</label>
+                                    <input asp-for="FuelType" class="form-control" />
+                                    <span asp-validation-for="FuelType" class="text-danger"></span>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="row">
+                            <div class="col-md-6">
+                                <div class="form-group">
+                                    <label asp-for="SeatingCapacity">Seating Capacity</label>
+                                    <input asp-for="SeatingCapacity" class="form-control" />
+                                    <span asp-validation-for="SeatingCapacity" class="text-danger"></span>
+                                </div>
+                            </div>
+                            <div class="col-md-6">
+                                <div class="form-group">
+                                    <label asp-for="PricePerDay">Price Per Day</label>
+                                    <input asp-for="PricePerDay" class="form-control" />
+                                    <span asp-validation-for="PricePerDay" class="text-danger"></span>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="row">
+                            <div class="col-md-6">
+                                <div class="form-group">
+                                    <label asp-for="Year">Year</label>
+                                    <input asp-for="Year" class="form-control" />
+                                    <span asp-validation-for="Year" class="text-danger"></span>
+                                </div>
+                            </div>
+                            <div class="col-md-6">
+                                <div class="form-group">
+                                    <label asp-for="City">City</label>
+                                    <select asp-for="City" class="form-control" asp-items="ViewBag.Cities">
+                                        <option value="">-- Select City --</option>
+                                    </select>
+                                    <span asp-validation-for="City" class="text-danger"></span>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="row">
+                            <div class="col-md-6">
+                                <div class="form-group">
+                                    <label>AC</label>
+                                    <div class="form-check">
+                                        <input asp-for="Isac" type="checkbox" class="form-check-input" />
+                                        <label class="form-check-label" for="Isac">Available</label>
+                                    </div>
+                                    <span asp-validation-for="Isac" class="text-danger"></span>
+                                </div>
+                            </div>
+                            <div class="col-md-6">
+                                <div class="form-group">
+                                    <label asp-for="Status">Status</label>
+                                    <select asp-for="Status" class="form-control">
+                                        <option value="">-- Select Status --</option>
+                                        <option value="available">Available</option>
+                                        <option value="not available">Not Available</option>
+                                    </select>
+                                    <span asp-validation-for="Status" class="text-danger"></span>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="form-group">
+                            <label asp-for="Description">Description</label>
+                            <textarea asp-for="Description" class="form-control"></textarea>
+                            <span asp-validation-for="Description" class="text-danger"></span>
+                        </div>
+
+                        <div class="form-group">
+                            <label asp-for="ImageFile">Upload Image</label>
+                            <input asp-for="ImageFile" type="file" class="form-control-file" id="imageUpload" />
+                            <span asp-validation-for="ImageFile" class="text-danger"></span>
+                            <div id="imagePreview" class="mt-3">
+                                <!-- Image preview will appear here -->
+                            </div>
+                        </div>
+
+                        <button type="submit" class="btn btn-primary">Save</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- jQuery and Bootstrap JavaScript -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+
+    <!-- JavaScript for Image Preview -->
+    <script>
+        document.getElementById('imageUpload').addEventListener('change', function (event) {
+            var input = event.target;
+            var preview = document.getElementById('imagePreview');
+            preview.innerHTML = ''; // Clear any previous previews
+
+            if (input.files && input.files[0]) {
+                var reader = new FileReader();
+                reader.onload = function (e) {
+                    var img = document.createElement('img');
+                    img.src = e.target.result;
+                    img.classList.add('img-fluid'); // Add Bootstrap class for responsive images
+                    img.style.maxWidth = '100%'; // Make sure image fits within container
+                    preview.appendChild(img);
+                };
+                reader.readAsDataURL(input.files[0]);
+            }
+        });
+    </script>
+
+   
+    <style>
+        body {
+            background-image: url('/images/55.jpg'); /* Update with the correct path to your image */
+            background-size: cover;
+            background-position: center;
+            background-repeat: no-repeat;
+            margin: 0;
+            padding: 0;
+            font-family: Arial, sans-serif;
+        }
+        
+
+        /* Content Styling */
+        #content {
+            margin-left: 250px;
+            transition: all 0.3s ease;
+            padding: 20px;
+            width: calc(100% - 250px);
+        }
+
+        /* Card Styling */
+        .card {
+            background-color: rgba(255, 255, 255, 0.7); 
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            padding: 20px;
+            margin-top: 20px;
+        }
+
+
+        /* Image Preview Styling */
+        #imagePreview {
+            text-align: center;
+        }
+
+            #imagePreview img {
+                border: 1px solid #ddd;
+                border-radius: 4px;
+                padding: 5px;
+                max-width: 100%;
+                height: auto;
+            }
+    </style>
+</body>
+
+</html>

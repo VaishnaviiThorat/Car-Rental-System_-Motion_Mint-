@@ -1,0 +1,43 @@
+﻿
+@{
+    Layout = null; // Set layout to null
+}
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Admin Dashboard</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" />
+    <style>
+        .dashboard-box {
+            background-color: #f8f9fa; /* Light background color */
+            border: 1px solid #dee2e6;
+            padding: 20px;
+            margin: 10px;
+            text-align: center;
+            height: 150px; /* Increased height */
+            font-size: 1.5em; /* Increased font size */
+        }
+
+            .dashboard-box h3 {
+                color: black; /* Heading color */
+            }
+    </style>
+</head>
+<body>
+    @Html.Partial("_UserNavbar")
+    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+
+    <!-- Popper.js for Bootstrap -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/2.11.6/umd/popper.min.js" integrity="sha384-oBqDVmMz4fnFO9gybR9YYkSHbSS16D7m+4JjLvV2M5Zy5cfDI3m2bF6N0dxlks4O" crossorigin="anonymous"></script>
+
+    <!-- Bootstrap JavaScript -->
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-wXx85VhNwEv5b8+P2KxKQmeY/3d6AP0F+4aD+5q8h2dshdVGT+Sx/ug5eSmANhAk" crossorigin="anonymous"></script>
+
+</body>
+</html>
+
+

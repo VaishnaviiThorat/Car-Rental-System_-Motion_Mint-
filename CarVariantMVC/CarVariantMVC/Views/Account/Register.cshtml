@@ -1,0 +1,181 @@
+﻿@model CarVariantMVC.Models.UserRegistrationViewModel
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Register</title>
+    <link rel="stylesheet" href="~/css/site.css"> <!-- Link to your CSS file -->
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+            height: 100vh;
+            background-image: url('/images/3d-car-with-minimal-background.jpg');
+            background-size: cover;
+            background-position: center;
+            background-repeat: no-repeat;
+        }
+
+        .background-image {
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            filter: blur(12px); /* Adjust the blur level */
+            z-index: -1; /* Place the image behind the login form */
+            opacity: 0.8; /* Make the background image 80% visible */
+        }
+
+        .registration-container {
+            max-width: 600px; /* Increased max-width for better layout */
+            margin: 0 auto;
+            padding: 20px;
+            background-color: rgba(255, 255, 255, 0.9); /* Semi-transparent background */
+            border-radius: 8px;
+            box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+        }
+
+        .form-row {
+            display: flex;
+            flex-wrap: wrap;
+            margin: 0 -15px; /* Negative margin to offset column padding */
+        }
+
+        .form-group {
+            margin-bottom: 15px;
+        }
+
+            .form-group.col-md-6 {
+                padding: 0 15px; /* Add padding to create space between columns */
+            }
+
+        .btn-primary {
+            width: 100%;
+        }
+
+        .text-center a {
+            color: #007bff;
+            text-decoration: none;
+        }
+
+            .text-center a:hover {
+                text-decoration: underline;
+            }
+
+        .invalid-feedback {
+            color: red;
+            display: none;
+        }
+    </style>
+</head>
+<body>
+    <div class="background-image"></div>
+    <div class="registration-container">
+        <h2 class="text-center">Register</h2>
+
+        <form asp-action="Register" method="post" id="registrationForm">
+            <div class="form-group">
+                <label asp-for="Username" class="font-weight-bold">Username</label>
+                <input asp-for="Username" class="form-control" placeholder="Enter your username" />
+                <span asp-validation-for="Username" class="text-danger"></span>
+            </div>
+
+            <div class="form-row">
+                <div class="form-group col-md-6">
+                    <label asp-for="Email" class="font-weight-bold">Email</label>
+                    <input asp-for="Email" class="form-control" placeholder="Enter your email" id="emailInput" />
+                    <span class="invalid-feedback" id="emailError">Email must end with &#64;gmail.com</span>
+                </div>
+
+                <div class="form-group col-md-6">
+                    <label asp-for="Password" class="font-weight-bold">Password</label>
+                    <input asp-for="Password" type="password" class="form-control" placeholder="Enter your password" id="passwordInput" />
+                    <span class="invalid-feedback" id="passwordError">Password must contain at least one letter, one number, and one special character</span>
+                </div>
+            </div>
+
+            <div class="form-row">
+                <div class="form-group col-md-6">
+                    <label asp-for="FirstName" class="font-weight-bold">First Name</label>
+                    <input asp-for="FirstName" class="form-control" placeholder="Enter your first name" id="firstNameInput" />
+                    <span asp-validation-for="FirstName" class="text-danger"></span>
+                </div>
+
+                <div class="form-group col-md-6">
+                    <label asp-for="LastName" class="font-weight-bold">Last Name</label>
+                    <input asp-for="LastName" class="form-control" placeholder="Enter your last name" id="lastNameInput" />
+                    <span asp-validation-for="LastName" class="text-danger"></span>
+                </div>
+            </div>
+
+            <button type="submit" class="btn btn-primary btn-block mt-4">Register</button>
+        </form>
+
+        <div asp-validation-summary="ModelOnly" class="text-danger mt-3"></div>
+
+        <div class="text-center mt-3">
+            <p>Already have an account? <a href="/Account/Login">Login here</a></p>
+        </div>
+    </div>
+
+    <script>
+        document.addEventListener("DOMContentLoaded", function () {
+            const firstNameInput = document.getElementById('firstNameInput');
+            const lastNameInput = document.getElementById('lastNameInput');
+            const emailInput = document.getElementById('emailInput');
+            const passwordInput = document.getElementById('passwordInput');
+
+            // Capitalize first letter
+            function capitalizeFirstLetter(input) {
+                input.value = input.value.charAt(0).toUpperCase() + input.value.slice(1);
+            }
+
+            function validateFirstName() {
+                const firstNameValue = firstNameInput.value;
+                if (firstNameValue.length > 0) {
+                    firstNameInput.value = capitalizeFirstLetter(firstNameValue);
+                }
+            }
+
+            function validateLastName() {
+                const lastNameValue = lastNameInput.value;
+                if (lastNameValue.length > 0) {
+                    lastNameInput.value = capitalizeFirstLetter(lastNameValue);
+                }
+            }
+
+            firstNameInput.addEventListener('input', validateFirstName);
+            lastNameInput.addEventListener('input', validateLastName);
+
+            // Validate email
+            emailInput.addEventListener('input', function () {
+                const emailValue = emailInput.value;
+                const emailError = document.getElementById('emailError');
+                if (!emailValue.endsWith('&#64;gmail.com')) {
+                    emailError.style.display = 'block';
+                } else {
+                    emailError.style.display = 'none';
+                }
+            });
+
+            // Validate password
+            passwordInput.addEventListener('input', function () {
+                const passwordValue = passwordInput.value;
+                const passwordError = document.getElementById('passwordError');
+                const letter = /[a-zA-Z]/.test(passwordValue);
+                const number = /[0-9]/.test(passwordValue);
+                const specialCharacter = /[!#$%^&*()_+{}\[\]:;"'&#64;<>,.?~\\/-]/.test(passwordValue);
+
+                if (letter && number && specialCharacter) {
+                    passwordError.style.display = 'none';
+                } else {
+                    passwordError.style.display = 'block';
+                }
+            });
+        });
+    </script>
+</body>
+</html>

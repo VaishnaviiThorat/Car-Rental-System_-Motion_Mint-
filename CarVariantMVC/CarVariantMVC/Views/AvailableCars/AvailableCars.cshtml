@@ -1,0 +1,115 @@
+﻿@model IEnumerable<CarVariantMVC.Models.Variant>
+
+@{
+    ViewData["Title"] = "Available Cars";
+    Layout = null; // Disable the default layout
+}
+
+<!-- Include Bootstrap CSS -->
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+
+<!-- Custom CSS -->
+<style>
+    body {
+        font-family: Arial, sans-serif;
+        margin: 0;
+        padding: 0;
+       
+        background-image: url('/images/background.jpg');
+        background-size: cover; /* Ensure the image covers the entire background */
+        background-repeat: no-repeat; /* Prevent the image from repeating */
+        background-attachment: fixed; /* Keep the background fixed on scroll */
+        background-position: center; /* Center the background image */
+    }
+
+
+    /* Main content area */
+    #content {
+        margin-left: 250px;
+        padding: 20px;
+    }
+
+    /* Available Cars */
+    .card-img-top {
+        height: 200px;
+        object-fit: cover;
+    }
+
+    .card-title {
+        font-weight: bold;
+    }
+
+    .card-text strong {
+        font-weight: 600;
+    }
+</style>
+
+<div id="sidebar">
+    @await Html.PartialAsync("_UserNavbar")
+</div>
+
+<div id="content">
+    <h2 class="text-center mb-4">Available Cars</h2>
+
+    <!-- City Selection Dropdown -->
+    <div class="form-group text-center">
+        <label for="citySelect" class="font-weight-bold"></label>
+        <select id="citySelect" class="form-control w-50 mx-auto">
+            <option value="">-- Select City --</option>
+            <option value="Mumbai">Mumbai</option>
+            <option value="Pune">Pune</option>
+            <option value="Chennai">Chennai</option>
+            <option value="Kanpur">Kanpur</option>
+        </select>
+    </div>
+
+    <div class="row" id="carVariants">
+        @foreach (var variant in Model)
+        {
+            <div class="col-md-4 mb-4 car-variant" data-city="@variant.City">
+                <div class="card">
+                    <img src="~/images/@variant.Image" class="card-img-top" alt="@variant.Name" />
+                    <div class="card-body">
+                        <h5 class="card-title">@variant.Name</h5>
+                        <p class="card-text">
+                            <strong>Model Number:</strong> @variant.ModelNumber<br />
+                            <strong>Fuel Type:</strong> @variant.FuelType<br />
+                            <strong>Seating Capacity:</strong> @variant.SeatingCapacity<br />
+                            <strong>Price Per Day:</strong> @(variant.PricePerDay.HasValue ? variant.PricePerDay.Value.ToString("C") : "N/A")<br />
+                            <strong>Year:</strong> @variant.Year<br />
+                            <strong>City:</strong> @variant.City<br />
+                            <strong>Company:</strong> @variant.Company.Name
+                        </p>
+                        <a asp-controller="AvailableCars"
+                           asp-action="RentCar"
+                           asp-route-id="@variant.Id"
+                           asp-route-userId="@ViewBag.UserId"
+                           asp-route-username="@ViewBag.Username"
+                           class="btn btn-primary">Rent this Car</a>
+                    </div>
+                </div>
+            </div>
+        }
+    </div>
+</div>
+
+<!-- Include Bootstrap JS and dependencies -->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+
+<script>
+    $(document).ready(function () {
+        $('#citySelect').on('change', function () {
+            var selectedCity = $(this).val();
+            $('.car-variant').each(function () {
+                var variantCity = $(this).data('city');
+                if (selectedCity === '' || variantCity === selectedCity) {
+                    $(this).show(); // Show the variant if it matches the selected city
+                } else {
+                    $(this).hide(); // Hide the variant if it doesn't match
+                }
+            });
+        });
+    });
+</script>

@@ -1,0 +1,577 @@
+{
+  "Files": [
+    {
+      "Id": "E:\\CDAC\\B car rental dot net\\CarVariantMVC\\CarVariantMVC\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\CarVariantMVC.bundle.scp.css",
+      "PackagePath": "staticwebassets\\CarVariantMVC.bundle.scp.css"
+    },
+    {
+      "Id": "E:\\CDAC\\B car rental dot net\\CarVariantMVC\\CarVariantMVC\\wwwroot\\css\\home_about.css",
+      "PackagePath": "staticwebassets\\css\\home_about.css"
+    },
+    {
+      "Id": "E:\\CDAC\\B car rental dot net\\CarVariantMVC\\CarVariantMVC\\wwwroot\\css\\home_contact.css",
+      "PackagePath": "staticwebassets\\css\\home_contact.css"
+    },
+    {
+      "Id": "E:\\CDAC\\B car rental dot net\\CarVariantMVC\\CarVariantMVC\\wwwroot\\css\\site.css",
+      "PackagePath": "staticwebassets\\css\\site.css"
+    },
+    {
+      "Id": "E:\\CDAC\\B car rental dot net\\CarVariantMVC\\CarVariantMVC\\wwwroot\\images\\0677b75d-9398-454d-93fb-1f694e4ceb8f_view-3d-pink-car.jpg",
+      "PackagePath": "staticwebassets\\images\\0677b75d-9398-454d-93fb-1f694e4ceb8f_view-3d-pink-car.jpg"
+    },
+    {
+      "Id": "E:\\CDAC\\B car rental dot net\\CarVariantMVC\\CarVariantMVC\\wwwroot\\images\\1-28.png",
+      "PackagePath": "staticwebassets\\images\\1-28.png"
+    },
+    {
+      "Id": "E:\\CDAC\\B car rental dot net\\CarVariantMVC\\CarVariantMVC\\wwwroot\\images\\1-29.png",
+      "PackagePath": "staticwebassets\\images\\1-29.png"
+    },
+    {
+      "Id": "E:\\CDAC\\B car rental dot net\\CarVariantMVC\\CarVariantMVC\\wwwroot\\images\\1-30.png",
+      "PackagePath": "staticwebassets\\images\\1-30.png"
+    },
+    {
+      "Id": "E:\\CDAC\\B car rental dot net\\CarVariantMVC\\CarVariantMVC\\wwwroot\\images\\1.jpg",
+      "PackagePath": "staticwebassets\\images\\1.jpg"
+    },
+    {
+      "Id": "E:\\CDAC\\B car rental dot net\\CarVariantMVC\\CarVariantMVC\\wwwroot\\images\\10-13.png",
+      "PackagePath": "staticwebassets\\images\\10-13.png"
+    },
+    {
+      "Id": "E:\\CDAC\\B car rental dot net\\CarVariantMVC\\CarVariantMVC\\wwwroot\\images\\10-14.png",
+      "PackagePath": "staticwebassets\\images\\10-14.png"
+    },
+    {
+      "Id": "E:\\CDAC\\B car rental dot net\\CarVariantMVC\\CarVariantMVC\\wwwroot\\images\\10-15.png",
+      "PackagePath": "staticwebassets\\images\\10-15.png"
+    },
+    {
+      "Id": "E:\\CDAC\\B car rental dot net\\CarVariantMVC\\CarVariantMVC\\wwwroot\\images\\11-31.png",
+      "PackagePath": "staticwebassets\\images\\11-31.png"
+    },
+    {
+      "Id": "E:\\CDAC\\B car rental dot net\\CarVariantMVC\\CarVariantMVC\\wwwroot\\images\\11-32.png",
+      "PackagePath": "staticwebassets\\images\\11-32.png"
+    },
+    {
+      "Id": "E:\\CDAC\\B car rental dot net\\CarVariantMVC\\CarVariantMVC\\wwwroot\\images\\11-33.png",
+      "PackagePath": "staticwebassets\\images\\11-33.png"
+    },
+    {
+      "Id": "E:\\CDAC\\B car rental dot net\\CarVariantMVC\\CarVariantMVC\\wwwroot\\images\\12-34.png",
+      "PackagePath": "staticwebassets\\images\\12-34.png"
+    },
+    {
+      "Id": "E:\\CDAC\\B car rental dot net\\CarVariantMVC\\CarVariantMVC\\wwwroot\\images\\12-35.png",
+      "PackagePath": "staticwebassets\\images\\12-35.png"
+    },
+    {
+      "Id": "E:\\CDAC\\B car rental dot net\\CarVariantMVC\\CarVariantMVC\\wwwroot\\images\\12-36.png",
+      "PackagePath": "staticwebassets\\images\\12-36.png"
+    },
+    {
+      "Id": "E:\\CDAC\\B car rental dot net\\CarVariantMVC\\CarVariantMVC\\wwwroot\\images\\13-37.png",
+      "PackagePath": "staticwebassets\\images\\13-37.png"
+    },
+    {
+      "Id": "E:\\CDAC\\B car rental dot net\\CarVariantMVC\\CarVariantMVC\\wwwroot\\images\\13-38.png",
+      "PackagePath": "staticwebassets\\images\\13-38.png"
+    },
+    {
+      "Id": "E:\\CDAC\\B car rental dot net\\CarVariantMVC\\CarVariantMVC\\wwwroot\\images\\13-39.png",
+      "PackagePath": "staticwebassets\\images\\13-39.png"
+    },
+    {
+      "Id": "E:\\CDAC\\B car rental dot net\\CarVariantMVC\\CarVariantMVC\\wwwroot\\images\\14-40.png",
+      "PackagePath": "staticwebassets\\images\\14-40.png"
+    },
+    {
+      "Id": "E:\\CDAC\\B car rental dot net\\CarVariantMVC\\CarVariantMVC\\wwwroot\\images\\14-41.png",
+      "PackagePath": "staticwebassets\\images\\14-41.png"
+    },
+    {
+      "Id": "E:\\CDAC\\B car rental dot net\\CarVariantMVC\\CarVariantMVC\\wwwroot\\images\\14-42.png",
+      "PackagePath": "staticwebassets\\images\\14-42.png"
+    },
+    {
+      "Id": "E:\\CDAC\\B car rental dot net\\CarVariantMVC\\CarVariantMVC\\wwwroot\\images\\15-43.png",
+      "PackagePath": "staticwebassets\\images\\15-43.png"
+    },
+    {
+      "Id": "E:\\CDAC\\B car rental dot net\\CarVariantMVC\\CarVariantMVC\\wwwroot\\images\\15-44.png",
+      "PackagePath": "staticwebassets\\images\\15-44.png"
+    },
+    {
+      "Id": "E:\\CDAC\\B car rental dot net\\CarVariantMVC\\CarVariantMVC\\wwwroot\\images\\15-45.png",
+      "PackagePath": "staticwebassets\\images\\15-45.png"
+    },
+    {
+      "Id": "E:\\CDAC\\B car rental dot net\\CarVariantMVC\\CarVariantMVC\\wwwroot\\images\\16-46.png",
+      "PackagePath": "staticwebassets\\images\\16-46.png"
+    },
+    {
+      "Id": "E:\\CDAC\\B car rental dot net\\CarVariantMVC\\CarVariantMVC\\wwwroot\\images\\16-47.png",
+      "PackagePath": "staticwebassets\\images\\16-47.png"
+    },
+    {
+      "Id": "E:\\CDAC\\B car rental dot net\\CarVariantMVC\\CarVariantMVC\\wwwroot\\images\\16-48.png",
+      "PackagePath": "staticwebassets\\images\\16-48.png"
+    },
+    {
+      "Id": "E:\\CDAC\\B car rental dot net\\CarVariantMVC\\CarVariantMVC\\wwwroot\\images\\1c75c43f-e46a-4ce5-81c2-159f7dbc5264_Safari.jpg",
+      "PackagePath": "staticwebassets\\images\\1c75c43f-e46a-4ce5-81c2-159f7dbc5264_Safari.jpg"
+    },
+    {
+      "Id": "E:\\CDAC\\B car rental dot net\\CarVariantMVC\\CarVariantMVC\\wwwroot\\images\\2-25.png",
+      "PackagePath": "staticwebassets\\images\\2-25.png"
+    },
+    {
+      "Id": "E:\\CDAC\\B car rental dot net\\CarVariantMVC\\CarVariantMVC\\wwwroot\\images\\2-26.png",
+      "PackagePath": "staticwebassets\\images\\2-26.png"
+    },
+    {
+      "Id": "E:\\CDAC\\B car rental dot net\\CarVariantMVC\\CarVariantMVC\\wwwroot\\images\\2-27.png",
+      "PackagePath": "staticwebassets\\images\\2-27.png"
+    },
+    {
+      "Id": "E:\\CDAC\\B car rental dot net\\CarVariantMVC\\CarVariantMVC\\wwwroot\\images\\2.jpg",
+      "PackagePath": "staticwebassets\\images\\2.jpg"
+    },
+    {
+      "Id": "E:\\CDAC\\B car rental dot net\\CarVariantMVC\\CarVariantMVC\\wwwroot\\images\\3-22.png",
+      "PackagePath": "staticwebassets\\images\\3-22.png"
+    },
+    {
+      "Id": "E:\\CDAC\\B car rental dot net\\CarVariantMVC\\CarVariantMVC\\wwwroot\\images\\3-23.png",
+      "PackagePath": "staticwebassets\\images\\3-23.png"
+    },
+    {
+      "Id": "E:\\CDAC\\B car rental dot net\\CarVariantMVC\\CarVariantMVC\\wwwroot\\images\\3-24.png",
+      "PackagePath": "staticwebassets\\images\\3-24.png"
+    },
+    {
+      "Id": "E:\\CDAC\\B car rental dot net\\CarVariantMVC\\CarVariantMVC\\wwwroot\\images\\33.jpg",
+      "PackagePath": "staticwebassets\\images\\33.jpg"
+    },
+    {
+      "Id": "E:\\CDAC\\B car rental dot net\\CarVariantMVC\\CarVariantMVC\\wwwroot\\images\\3d-car-with-minimal-background.jpg",
+      "PackagePath": "staticwebassets\\images\\3d-car-with-minimal-background.jpg"
+    },
+    {
+      "Id": "E:\\CDAC\\B car rental dot net\\CarVariantMVC\\CarVariantMVC\\wwwroot\\images\\4-16.png",
+      "PackagePath": "staticwebassets\\images\\4-16.png"
+    },
+    {
+      "Id": "E:\\CDAC\\B car rental dot net\\CarVariantMVC\\CarVariantMVC\\wwwroot\\images\\4-17.png",
+      "PackagePath": "staticwebassets\\images\\4-17.png"
+    },
+    {
+      "Id": "E:\\CDAC\\B car rental dot net\\CarVariantMVC\\CarVariantMVC\\wwwroot\\images\\4-18.png",
+      "PackagePath": "staticwebassets\\images\\4-18.png"
+    },
+    {
+      "Id": "E:\\CDAC\\B car rental dot net\\CarVariantMVC\\CarVariantMVC\\wwwroot\\images\\44.jpg",
+      "PackagePath": "staticwebassets\\images\\44.jpg"
+    },
+    {
+      "Id": "E:\\CDAC\\B car rental dot net\\CarVariantMVC\\CarVariantMVC\\wwwroot\\images\\5-19.png",
+      "PackagePath": "staticwebassets\\images\\5-19.png"
+    },
+    {
+      "Id": "E:\\CDAC\\B car rental dot net\\CarVariantMVC\\CarVariantMVC\\wwwroot\\images\\5-20.png",
+      "PackagePath": "staticwebassets\\images\\5-20.png"
+    },
+    {
+      "Id": "E:\\CDAC\\B car rental dot net\\CarVariantMVC\\CarVariantMVC\\wwwroot\\images\\5-21.png",
+      "PackagePath": "staticwebassets\\images\\5-21.png"
+    },
+    {
+      "Id": "E:\\CDAC\\B car rental dot net\\CarVariantMVC\\CarVariantMVC\\wwwroot\\images\\55.jpg",
+      "PackagePath": "staticwebassets\\images\\55.jpg"
+    },
+    {
+      "Id": "E:\\CDAC\\B car rental dot net\\CarVariantMVC\\CarVariantMVC\\wwwroot\\images\\6-1.png",
+      "PackagePath": "staticwebassets\\images\\6-1.png"
+    },
+    {
+      "Id": "E:\\CDAC\\B car rental dot net\\CarVariantMVC\\CarVariantMVC\\wwwroot\\images\\6-2.png",
+      "PackagePath": "staticwebassets\\images\\6-2.png"
+    },
+    {
+      "Id": "E:\\CDAC\\B car rental dot net\\CarVariantMVC\\CarVariantMVC\\wwwroot\\images\\6-3.png",
+      "PackagePath": "staticwebassets\\images\\6-3.png"
+    },
+    {
+      "Id": "E:\\CDAC\\B car rental dot net\\CarVariantMVC\\CarVariantMVC\\wwwroot\\images\\66.jpg",
+      "PackagePath": "staticwebassets\\images\\66.jpg"
+    },
+    {
+      "Id": "E:\\CDAC\\B car rental dot net\\CarVariantMVC\\CarVariantMVC\\wwwroot\\images\\7-4.png",
+      "PackagePath": "staticwebassets\\images\\7-4.png"
+    },
+    {
+      "Id": "E:\\CDAC\\B car rental dot net\\CarVariantMVC\\CarVariantMVC\\wwwroot\\images\\7-5.png",
+      "PackagePath": "staticwebassets\\images\\7-5.png"
+    },
+    {
+      "Id": "E:\\CDAC\\B car rental dot net\\CarVariantMVC\\CarVariantMVC\\wwwroot\\images\\7-6.png",
+      "PackagePath": "staticwebassets\\images\\7-6.png"
+    },
+    {
+      "Id": "E:\\CDAC\\B car rental dot net\\CarVariantMVC\\CarVariantMVC\\wwwroot\\images\\77.jpg",
+      "PackagePath": "staticwebassets\\images\\77.jpg"
+    },
+    {
+      "Id": "E:\\CDAC\\B car rental dot net\\CarVariantMVC\\CarVariantMVC\\wwwroot\\images\\8-7.png",
+      "PackagePath": "staticwebassets\\images\\8-7.png"
+    },
+    {
+      "Id": "E:\\CDAC\\B car rental dot net\\CarVariantMVC\\CarVariantMVC\\wwwroot\\images\\8-8.png",
+      "PackagePath": "staticwebassets\\images\\8-8.png"
+    },
+    {
+      "Id": "E:\\CDAC\\B car rental dot net\\CarVariantMVC\\CarVariantMVC\\wwwroot\\images\\8-9.png",
+      "PackagePath": "staticwebassets\\images\\8-9.png"
+    },
+    {
+      "Id": "E:\\CDAC\\B car rental dot net\\CarVariantMVC\\CarVariantMVC\\wwwroot\\images\\9-10.png",
+      "PackagePath": "staticwebassets\\images\\9-10.png"
+    },
+    {
+      "Id": "E:\\CDAC\\B car rental dot net\\CarVariantMVC\\CarVariantMVC\\wwwroot\\images\\9-11.png",
+      "PackagePath": "staticwebassets\\images\\9-11.png"
+    },
+    {
+      "Id": "E:\\CDAC\\B car rental dot net\\CarVariantMVC\\CarVariantMVC\\wwwroot\\images\\9-12.png",
+      "PackagePath": "staticwebassets\\images\\9-12.png"
+    },
+    {
+      "Id": "E:\\CDAC\\B car rental dot net\\CarVariantMVC\\CarVariantMVC\\wwwroot\\images\\99f923f6-433f-4c59-9c47-a2421441d4b4_3d-car-with-minimal-background.jpg",
+      "PackagePath": "staticwebassets\\images\\99f923f6-433f-4c59-9c47-a2421441d4b4_3d-car-with-minimal-background.jpg"
+    },
+    {
+      "Id": "E:\\CDAC\\B car rental dot net\\CarVariantMVC\\CarVariantMVC\\wwwroot\\images\\Mahindra XUV700 Front View.jpg",
+      "PackagePath": "staticwebassets\\images\\Mahindra XUV700 Front View.jpg"
+    },
+    {
+      "Id": "E:\\CDAC\\B car rental dot net\\CarVariantMVC\\CarVariantMVC\\wwwroot\\images\\Rent a Now.png",
+      "PackagePath": "staticwebassets\\images\\Rent a Now.png"
+    },
+    {
+      "Id": "E:\\CDAC\\B car rental dot net\\CarVariantMVC\\CarVariantMVC\\wwwroot\\images\\Screenshot 2024-08-15 193310.png",
+      "PackagePath": "staticwebassets\\images\\Screenshot 2024-08-15 193310.png"
+    },
+    {
+      "Id": "E:\\CDAC\\B car rental dot net\\CarVariantMVC\\CarVariantMVC\\wwwroot\\images\\a.jpg",
+      "PackagePath": "staticwebassets\\images\\a.jpg"
+    },
+    {
+      "Id": "E:\\CDAC\\B car rental dot net\\CarVariantMVC\\CarVariantMVC\\wwwroot\\images\\a4068c5c-4133-46a3-9075-db1cf3ac0bf3_Best-Cars-Full-HD-Photos-1920x1080.jpg",
+      "PackagePath": "staticwebassets\\images\\a4068c5c-4133-46a3-9075-db1cf3ac0bf3_Best-Cars-Full-HD-Photos-1920x1080.jpg"
+    },
+    {
+      "Id": "E:\\CDAC\\B car rental dot net\\CarVariantMVC\\CarVariantMVC\\wwwroot\\images\\b.jpg",
+      "PackagePath": "staticwebassets\\images\\b.jpg"
+    },
+    {
+      "Id": "E:\\CDAC\\B car rental dot net\\CarVariantMVC\\CarVariantMVC\\wwwroot\\images\\background.jpg",
+      "PackagePath": "staticwebassets\\images\\background.jpg"
+    },
+    {
+      "Id": "E:\\CDAC\\B car rental dot net\\CarVariantMVC\\CarVariantMVC\\wwwroot\\images\\bb.png",
+      "PackagePath": "staticwebassets\\images\\bb.png"
+    },
+    {
+      "Id": "E:\\CDAC\\B car rental dot net\\CarVariantMVC\\CarVariantMVC\\wwwroot\\images\\c.jpg",
+      "PackagePath": "staticwebassets\\images\\c.jpg"
+    },
+    {
+      "Id": "E:\\CDAC\\B car rental dot net\\CarVariantMVC\\CarVariantMVC\\wwwroot\\images\\d.jpg",
+      "PackagePath": "staticwebassets\\images\\d.jpg"
+    },
+    {
+      "Id": "E:\\CDAC\\B car rental dot net\\CarVariantMVC\\CarVariantMVC\\wwwroot\\images\\dd.png",
+      "PackagePath": "staticwebassets\\images\\dd.png"
+    },
+    {
+      "Id": "E:\\CDAC\\B car rental dot net\\CarVariantMVC\\CarVariantMVC\\wwwroot\\images\\e.jpg",
+      "PackagePath": "staticwebassets\\images\\e.jpg"
+    },
+    {
+      "Id": "E:\\CDAC\\B car rental dot net\\CarVariantMVC\\CarVariantMVC\\wwwroot\\images\\ee.png",
+      "PackagePath": "staticwebassets\\images\\ee.png"
+    },
+    {
+      "Id": "E:\\CDAC\\B car rental dot net\\CarVariantMVC\\CarVariantMVC\\wwwroot\\images\\out of.png",
+      "PackagePath": "staticwebassets\\images\\out of.png"
+    },
+    {
+      "Id": "E:\\CDAC\\B car rental dot net\\CarVariantMVC\\CarVariantMVC\\wwwroot\\images\\rentacar.png",
+      "PackagePath": "staticwebassets\\images\\rentacar.png"
+    },
+    {
+      "Id": "E:\\CDAC\\B car rental dot net\\CarVariantMVC\\CarVariantMVC\\wwwroot\\images\\view-3d-pink-car.jpg",
+      "PackagePath": "staticwebassets\\images\\view-3d-pink-car.jpg"
+    },
+    {
+      "Id": "E:\\CDAC\\B car rental dot net\\CarVariantMVC\\CarVariantMVC\\wwwroot\\images\\wp6522801.webp",
+      "PackagePath": "staticwebassets\\images\\wp6522801.webp"
+    },
+    {
+      "Id": "E:\\CDAC\\B car rental dot net\\CarVariantMVC\\CarVariantMVC\\wwwroot\\js\\site.js",
+      "PackagePath": "staticwebassets\\js\\site.js"
+    },
+    {
+      "Id": "E:\\CDAC\\B car rental dot net\\CarVariantMVC\\CarVariantMVC\\wwwroot\\lib\\bootstrap\\LICENSE",
+      "PackagePath": "staticwebassets\\lib\\bootstrap"
+    },
+    {
+      "Id": "E:\\CDAC\\B car rental dot net\\CarVariantMVC\\CarVariantMVC\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css"
+    },
+    {
+      "Id": "E:\\CDAC\\B car rental dot net\\CarVariantMVC\\CarVariantMVC\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map"
+    },
+    {
+      "Id": "E:\\CDAC\\B car rental dot net\\CarVariantMVC\\CarVariantMVC\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css"
+    },
+    {
+      "Id": "E:\\CDAC\\B car rental dot net\\CarVariantMVC\\CarVariantMVC\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map"
+    },
+    {
+      "Id": "E:\\CDAC\\B car rental dot net\\CarVariantMVC\\CarVariantMVC\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css"
+    },
+    {
+      "Id": "E:\\CDAC\\B car rental dot net\\CarVariantMVC\\CarVariantMVC\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map"
+    },
+    {
+      "Id": "E:\\CDAC\\B car rental dot net\\CarVariantMVC\\CarVariantMVC\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css"
+    },
+    {
+      "Id": "E:\\CDAC\\B car rental dot net\\CarVariantMVC\\CarVariantMVC\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map"
+    },
+    {
+      "Id": "E:\\CDAC\\B car rental dot net\\CarVariantMVC\\CarVariantMVC\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css"
+    },
+    {
+      "Id": "E:\\CDAC\\B car rental dot net\\CarVariantMVC\\CarVariantMVC\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map"
+    },
+    {
+      "Id": "E:\\CDAC\\B car rental dot net\\CarVariantMVC\\CarVariantMVC\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css"
+    },
+    {
+      "Id": "E:\\CDAC\\B car rental dot net\\CarVariantMVC\\CarVariantMVC\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map"
+    },
+    {
+      "Id": "E:\\CDAC\\B car rental dot net\\CarVariantMVC\\CarVariantMVC\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css"
+    },
+    {
+      "Id": "E:\\CDAC\\B car rental dot net\\CarVariantMVC\\CarVariantMVC\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map"
+    },
+    {
+      "Id": "E:\\CDAC\\B car rental dot net\\CarVariantMVC\\CarVariantMVC\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css"
+    },
+    {
+      "Id": "E:\\CDAC\\B car rental dot net\\CarVariantMVC\\CarVariantMVC\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map"
+    },
+    {
+      "Id": "E:\\CDAC\\B car rental dot net\\CarVariantMVC\\CarVariantMVC\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css"
+    },
+    {
+      "Id": "E:\\CDAC\\B car rental dot net\\CarVariantMVC\\CarVariantMVC\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map"
+    },
+    {
+      "Id": "E:\\CDAC\\B car rental dot net\\CarVariantMVC\\CarVariantMVC\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css"
+    },
+    {
+      "Id": "E:\\CDAC\\B car rental dot net\\CarVariantMVC\\CarVariantMVC\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map"
+    },
+    {
+      "Id": "E:\\CDAC\\B car rental dot net\\CarVariantMVC\\CarVariantMVC\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css"
+    },
+    {
+      "Id": "E:\\CDAC\\B car rental dot net\\CarVariantMVC\\CarVariantMVC\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map"
+    },
+    {
+      "Id": "E:\\CDAC\\B car rental dot net\\CarVariantMVC\\CarVariantMVC\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css"
+    },
+    {
+      "Id": "E:\\CDAC\\B car rental dot net\\CarVariantMVC\\CarVariantMVC\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map"
+    },
+    {
+      "Id": "E:\\CDAC\\B car rental dot net\\CarVariantMVC\\CarVariantMVC\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.css"
+    },
+    {
+      "Id": "E:\\CDAC\\B car rental dot net\\CarVariantMVC\\CarVariantMVC\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.css.map"
+    },
+    {
+      "Id": "E:\\CDAC\\B car rental dot net\\CarVariantMVC\\CarVariantMVC\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.min.css"
+    },
+    {
+      "Id": "E:\\CDAC\\B car rental dot net\\CarVariantMVC\\CarVariantMVC\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map"
+    },
+    {
+      "Id": "E:\\CDAC\\B car rental dot net\\CarVariantMVC\\CarVariantMVC\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css"
+    },
+    {
+      "Id": "E:\\CDAC\\B car rental dot net\\CarVariantMVC\\CarVariantMVC\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map"
+    },
+    {
+      "Id": "E:\\CDAC\\B car rental dot net\\CarVariantMVC\\CarVariantMVC\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css"
+    },
+    {
+      "Id": "E:\\CDAC\\B car rental dot net\\CarVariantMVC\\CarVariantMVC\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map"
+    },
+    {
+      "Id": "E:\\CDAC\\B car rental dot net\\CarVariantMVC\\CarVariantMVC\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js"
+    },
+    {
+      "Id": "E:\\CDAC\\B car rental dot net\\CarVariantMVC\\CarVariantMVC\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map"
+    },
+    {
+      "Id": "E:\\CDAC\\B car rental dot net\\CarVariantMVC\\CarVariantMVC\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js"
+    },
+    {
+      "Id": "E:\\CDAC\\B car rental dot net\\CarVariantMVC\\CarVariantMVC\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map"
+    },
+    {
+      "Id": "E:\\CDAC\\B car rental dot net\\CarVariantMVC\\CarVariantMVC\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js"
+    },
+    {
+      "Id": "E:\\CDAC\\B car rental dot net\\CarVariantMVC\\CarVariantMVC\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map"
+    },
+    {
+      "Id": "E:\\CDAC\\B car rental dot net\\CarVariantMVC\\CarVariantMVC\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js"
+    },
+    {
+      "Id": "E:\\CDAC\\B car rental dot net\\CarVariantMVC\\CarVariantMVC\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map"
+    },
+    {
+      "Id": "E:\\CDAC\\B car rental dot net\\CarVariantMVC\\CarVariantMVC\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.js"
+    },
+    {
+      "Id": "E:\\CDAC\\B car rental dot net\\CarVariantMVC\\CarVariantMVC\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.js.map"
+    },
+    {
+      "Id": "E:\\CDAC\\B car rental dot net\\CarVariantMVC\\CarVariantMVC\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.min.js"
+    },
+    {
+      "Id": "E:\\CDAC\\B car rental dot net\\CarVariantMVC\\CarVariantMVC\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map"
+    },
+    {
+      "Id": "E:\\CDAC\\B car rental dot net\\CarVariantMVC\\CarVariantMVC\\wwwroot\\lib\\jquery-validation-unobtrusive\\LICENSE.txt",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\LICENSE.txt"
+    },
+    {
+      "Id": "E:\\CDAC\\B car rental dot net\\CarVariantMVC\\CarVariantMVC\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js"
+    },
+    {
+      "Id": "E:\\CDAC\\B car rental dot net\\CarVariantMVC\\CarVariantMVC\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js"
+    },
+    {
+      "Id": "E:\\CDAC\\B car rental dot net\\CarVariantMVC\\CarVariantMVC\\wwwroot\\lib\\jquery-validation\\LICENSE.md",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\LICENSE.md"
+    },
+    {
+      "Id": "E:\\CDAC\\B car rental dot net\\CarVariantMVC\\CarVariantMVC\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\additional-methods.js"
+    },
+    {
+      "Id": "E:\\CDAC\\B car rental dot net\\CarVariantMVC\\CarVariantMVC\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\additional-methods.min.js"
+    },
+    {
+      "Id": "E:\\CDAC\\B car rental dot net\\CarVariantMVC\\CarVariantMVC\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\jquery.validate.js"
+    },
+    {
+      "Id": "E:\\CDAC\\B car rental dot net\\CarVariantMVC\\CarVariantMVC\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\jquery.validate.min.js"
+    },
+    {
+      "Id": "E:\\CDAC\\B car rental dot net\\CarVariantMVC\\CarVariantMVC\\wwwroot\\lib\\jquery\\LICENSE.txt",
+      "PackagePath": "staticwebassets\\lib\\jquery\\LICENSE.txt"
+    },
+    {
+      "Id": "E:\\CDAC\\B car rental dot net\\CarVariantMVC\\CarVariantMVC\\wwwroot\\lib\\jquery\\dist\\jquery.js",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.js"
+    },
+    {
+      "Id": "E:\\CDAC\\B car rental dot net\\CarVariantMVC\\CarVariantMVC\\wwwroot\\lib\\jquery\\dist\\jquery.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.min.js"
+    },
+    {
+      "Id": "E:\\CDAC\\B car rental dot net\\CarVariantMVC\\CarVariantMVC\\wwwroot\\lib\\jquery\\dist\\jquery.min.map",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.min.map"
+    },
+    {
+      "Id": "E:\\CDAC\\B car rental dot net\\CarVariantMVC\\CarVariantMVC\\wwwroot\\music\\click-21156.mp3",
+      "PackagePath": "staticwebassets\\music\\click-21156.mp3"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.CarVariantMVC.Microsoft.AspNetCore.StaticWebAssets.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.build.CarVariantMVC.props",
+      "PackagePath": "build\\CarVariantMVC.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.buildMultiTargeting.CarVariantMVC.props",
+      "PackagePath": "buildMultiTargeting\\CarVariantMVC.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.buildTransitive.CarVariantMVC.props",
+      "PackagePath": "buildTransitive\\CarVariantMVC.props"
+    }
+  ],
+  "ElementsToRemove": []
+}

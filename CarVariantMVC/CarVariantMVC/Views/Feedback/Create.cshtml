@@ -1,0 +1,155 @@
+﻿@model CarVariantMVC.Models.FeedbackViewModel
+
+@{
+    Layout = null; // Disable default layout to use custom navbar
+    ViewData["Title"] = "Give Feedback";
+    var isSuccess = ViewBag.IsSuccess as bool?;
+}
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link href="~/lib/bootstrap/dist/css/bootstrap.min.css" rel="stylesheet" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" />
+    <script src="~/lib/jquery/dist/jquery.min.js"></script>
+    <script src="~/lib/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
+    <style>
+        /* Background Image Styling */
+        body {
+            background-image: url('/images/1c75c43f-e46a-4ce5-81c2-159f7dbc5264_safari.jpg');
+            background-size: cover;
+            background-position: center;
+            background-repeat: no-repeat;
+            height: 100vh;
+            margin: 0;
+            padding: 0;
+            overflow: hidden;
+        }
+
+       
+
+        /* Content Area Styling */
+        #content {
+            margin-left: 250px;
+            padding: 40px;
+            min-height: 100vh;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            border-radius: 10px;
+        }
+
+        /* Card Styling */
+        .card {
+            background-color: rgba(255, 255, 255, 0.8);
+           
+            box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.1);
+            padding: 20px;
+            width: 100%;
+            max-width: 600px;
+        }
+
+        /* Header Styling */
+        h2 {
+            margin-bottom: 20px;
+            text-align: center;
+            color: #343a40;
+        }
+
+        /* Star Rating Styling */
+        .fa-star {
+            font-size: 24px;
+            cursor: pointer;
+            color: lightgray; /* Default color for unselected stars */
+        }
+
+            .fa-star.checked {
+                color: orange; /* Color for selected stars */
+            }
+
+        /* Additional styling for labels and text */
+        .form-group label {
+            color: #343a40;
+        }
+
+
+        .alert {
+            margin-top: 20px;
+        }
+    </style>
+</head>
+<body>
+
+    <div id="sidebar">
+        @await Html.PartialAsync("_UserNavbar") <!-- Include User Navbar -->
+    </div>
+
+    <div id="content">
+        <div class="card">
+            <h2>Give Feedback</h2>
+
+            @if (isSuccess == true)
+            {
+                <div class="alert alert-success" role="alert">
+                    Your feedback has been sent successfully!
+                </div>
+            }
+            else
+            {
+                @* Validation summary for displaying model errors *@
+                @Html.ValidationSummary(true, "", new { @class = "text-danger" })
+
+                <form asp-action="Create" method="post">
+                    <div class="form-group">
+                        <label asp-for="BookingId">Select a Booking:</label>
+                        <select asp-for="BookingId" class="form-control">
+                            <option value="">-- Select Booking --</option>
+                            @foreach (var booking in Model.Bookings)
+                            {
+                                <option value="@booking.Value">@booking.Text</option>
+                            }
+                        </select>
+                        @Html.ValidationMessageFor(m => m.BookingId, "", new { @class = "text-danger" })
+                    </div>
+
+                    <div class="form-group mt-3">
+                        <label asp-for="Rating">Rating:</label><br />
+                        @for (int i = 1; i <= 5; i++)
+                        {
+                            <span class="fa fa-star" data-value="@i"></span>
+                        }
+                        <input asp-for="Rating" type="hidden" id="rating" />
+                        @Html.ValidationMessageFor(m => m.Rating, "", new { @class = "text-danger" })
+                    </div>
+
+                    <div class="form-group mt-3">
+                        <label asp-for="Comments">Comments:</label>
+                        <textarea asp-for="Comments" class="form-control" rows="4"></textarea>
+                        @Html.ValidationMessageFor(m => m.Comments, "", new { @class = "text-danger" })
+                    </div>
+
+                    <button type="submit" class="btn btn-primary mt-3">Submit Feedback</button>
+                </form>
+            }
+        </div>
+    </div>
+
+    <script>
+        $(document).ready(function () {
+            $('.fa-star').click(function () {
+                var rating = $(this).data('value');
+                $('#rating').val(rating);
+                $('.fa-star').each(function (index) {
+                    if (index < rating) {
+                        $(this).addClass('checked');
+                    } else {
+                        $(this).removeClass('checked');
+                    }
+                });
+            });
+        });
+    </script>
+</body>
+</html>

@@ -1,0 +1,82 @@
+﻿@model CarVariantMVC.Models.LoginViewModel
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login</title>
+    <link rel="stylesheet" href="~/css/site.css"> <!-- Link to your CSS file -->
+</head>
+<body>
+    <div class="background-image"></div>
+    <div class="login-container">
+        <h2 class="text-center">Login</h2>
+
+        <form asp-action="Login" method="post">
+            <div class="form-group">
+                <label asp-for="Username" class="font-weight-bold">Username</label>
+                <input asp-for="Username" class="form-control" placeholder="Enter your username" />
+                <span asp-validation-for="Username" class="text-danger"></span>
+            </div>
+
+            <div class="form-group mt-3">
+                <label asp-for="Password" class="font-weight-bold">Password</label>
+                <input asp-for="Password" type="password" class="form-control" placeholder="Enter your password" />
+                <span asp-validation-for="Password" class="text-danger"></span>
+            </div>
+
+            <button type="submit" class="btn btn-primary btn-block mt-4">Login</button>
+        </form>
+
+        <div asp-validation-summary="ModelOnly" class="text-danger mt-3"></div>
+
+        <div class="text-center mt-3">
+            <p>Don't have an account? <a href="/Account/Register">Register here</a></p>
+        </div>
+    </div>
+
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+            height: 100vh;
+            background-image: url('/images/1.jpg');
+            background-size: cover;
+            background-position: center;
+            background-repeat: no-repeat;
+            position: relative;
+        }
+
+        .background-image {
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            filter: blur(12px); /* Adjust the blur level */
+            z-index: -1; /* Place the image behind the login form */
+            opacity: 0.8; /* Make the background image 80% visible */
+        }
+
+        .login-container {
+            max-width: 400px;
+            margin: 0 auto;
+            padding: 20px;
+            background-color: rgba(255, 255, 255, 0.9); /* Semi-transparent background */
+            border-radius: 8px;
+            box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+            position:center;
+            z-index: 1; /* Ensure the login form is above the background image */
+        }
+
+        .form-group {
+            margin-bottom: 15px;
+        }
+
+        .btn-primary {
+            width: 100%;
+        }
+    </style>
+</body>
+</html>

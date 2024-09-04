@@ -1,0 +1,128 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Motion Mint Dashboard</title>
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+    <!-- Include Font Awesome for Icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+
+    
+    <style>
+        #sidebar {
+            width: 250px;
+            height: 100vh;
+            position: fixed;
+            top: 0;
+            left: 0;
+            z-index: 100;
+            padding: 10px;
+            background-color: #343a40; /* Dark background */
+        }
+
+            #sidebar .sidebar-header {
+                padding-bottom: 20px;
+                margin-bottom: 10px;
+                border-bottom: 1px solid #fff;
+                text-align: center;
+            }
+
+            #sidebar ul.components {
+                padding: 5px;
+            }
+
+            #sidebar ul li {
+                padding: 5px;
+                font-size: 1.1em;
+            }
+
+                #sidebar ul li a {
+                    color: #ffffff;
+                    display: block;
+                    text-decoration: none;
+                    transition: color 0.3s, background-color 0.3s;
+                }
+
+                    #sidebar ul li a:hover,
+                    #sidebar ul li a:focus {
+                        color: #343a40;
+                        background-color: #ffc107; /* Hover and focus background color */
+                        border-radius: 5px;
+                    }
+
+        #content {
+            margin-left: 250px;
+            width: calc(100% - 250px);
+            padding: 10px;
+        }
+
+        /* Adjust Logout Button Styling */
+        .btn-outline-light {
+            background-color: transparent;
+            border: 1px solid #fff;
+            color: #fff;
+            transition: background-color 0.3s, color 0.3s;
+            padding: 10px;
+            font-size: 1.1em;
+            text-align: center;
+            width: 100%;
+            margin-top: 10px;
+            display: block;
+        }
+
+            .btn-outline-light:hover {
+                background-color: #fff;
+                color: #343a40;
+            }
+
+        .btn i {
+            margin-right: 5px; /* Adjust space between icon and text */
+        }
+    </style>
+</head>
+<body>
+    <div class="d-flex">
+        <!-- Sidebar -->
+        <nav id="sidebar" class="bg-dark">
+            <div class="sidebar-header">
+                <a class="navbar-brand text-white" asp-controller="User" asp-action="UserDashboard">User Dashboard</a>
+            </div>
+            <ul class="list-unstyled components">
+                <li class="nav-item"><a class="nav-link text-white" asp-controller="User" asp-action="UserDashboard">Home</a></li>
+                <li class="nav-item"><a class="nav-link text-white" asp-controller="Users" asp-action="Profile">Profile</a></li>
+                <li class="nav-item"><a class="nav-link text-white" asp-controller="Bookings" asp-action="Index">View Bookings</a></li>
+                <li class="nav-item"><a class="nav-link text-white" asp-controller="Bookings" asp-action="ReturnCar">Return Car</a></li>
+                <li class="nav-item"><a class="nav-link text-white" asp-controller="Feedback" asp-action="Create">Feedback</a></li>
+            </ul>
+            <ul class="list-unstyled components mt-auto">
+                <li class="nav-item">
+                    <form asp-controller="Account" asp-action="Logout" method="get" class="mt-auto">
+                        <button type="submit" class="btn btn-outline-light">
+                            <i class="fas fa-sign-out-alt"></i> 
+                        </button>
+                    </form>
+                </li>
+            </ul>
+        </nav>
+    </div>
+
+    <!-- Sound effect -->
+    <audio id="hover-sound" src="~/music/click-21156.mp3" preload="auto"></audio>
+
+    <script>
+        // JavaScript to play sound on hover
+        document.querySelectorAll('#sidebar ul li a').forEach(function (link) {
+            link.addEventListener('mouseenter', function () {
+                var sound = document.getElementById('hover-sound');
+                sound.currentTime = 0;
+                sound.play();
+            });
+        });
+    </script>
+
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popperjs/core@2.5.2/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</body>
+</html>

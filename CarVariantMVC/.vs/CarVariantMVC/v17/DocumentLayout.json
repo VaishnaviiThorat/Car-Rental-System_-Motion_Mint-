@@ -1,0 +1,1070 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "E:\\CDAC\\B car rental dot net\\CarVariantMVC\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{15FDEEBB-770A-49BF-A396-70FDA129FD14}|CarVariantMVC\\CarVariantMVC.csproj|e:\\cdac\\b car rental dot net\\carvariantmvc\\carvariantmvc\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{15FDEEBB-770A-49BF-A396-70FDA129FD14}|CarVariantMVC\\CarVariantMVC.csproj|solutionrelative:carvariantmvc\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{15FDEEBB-770A-49BF-A396-70FDA129FD14}|CarVariantMVC\\CarVariantMVC.csproj|e:\\cdac\\b car rental dot net\\carvariantmvc\\carvariantmvc\\views\\variant\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{15FDEEBB-770A-49BF-A396-70FDA129FD14}|CarVariantMVC\\CarVariantMVC.csproj|solutionrelative:carvariantmvc\\views\\variant\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{15FDEEBB-770A-49BF-A396-70FDA129FD14}|CarVariantMVC\\CarVariantMVC.csproj|e:\\cdac\\b car rental dot net\\carvariantmvc\\carvariantmvc\\views\\_viewimports.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{15FDEEBB-770A-49BF-A396-70FDA129FD14}|CarVariantMVC\\CarVariantMVC.csproj|solutionrelative:carvariantmvc\\views\\_viewimports.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{15FDEEBB-770A-49BF-A396-70FDA129FD14}|CarVariantMVC\\CarVariantMVC.csproj|e:\\cdac\\b car rental dot net\\carvariantmvc\\carvariantmvc\\views\\_viewstart.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{15FDEEBB-770A-49BF-A396-70FDA129FD14}|CarVariantMVC\\CarVariantMVC.csproj|solutionrelative:carvariantmvc\\views\\_viewstart.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{15FDEEBB-770A-49BF-A396-70FDA129FD14}|CarVariantMVC\\CarVariantMVC.csproj|e:\\cdac\\b car rental dot net\\carvariantmvc\\carvariantmvc\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{15FDEEBB-770A-49BF-A396-70FDA129FD14}|CarVariantMVC\\CarVariantMVC.csproj|solutionrelative:carvariantmvc\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{15FDEEBB-770A-49BF-A396-70FDA129FD14}|CarVariantMVC\\CarVariantMVC.csproj|e:\\cdac\\b car rental dot net\\carvariantmvc\\carvariantmvc\\controllers\\admincontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{15FDEEBB-770A-49BF-A396-70FDA129FD14}|CarVariantMVC\\CarVariantMVC.csproj|solutionrelative:carvariantmvc\\controllers\\admincontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{15FDEEBB-770A-49BF-A396-70FDA129FD14}|CarVariantMVC\\CarVariantMVC.csproj|e:\\cdac\\b car rental dot net\\carvariantmvc\\carvariantmvc\\controllers\\accountcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{15FDEEBB-770A-49BF-A396-70FDA129FD14}|CarVariantMVC\\CarVariantMVC.csproj|solutionrelative:carvariantmvc\\controllers\\accountcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{15FDEEBB-770A-49BF-A396-70FDA129FD14}|CarVariantMVC\\CarVariantMVC.csproj|e:\\cdac\\b car rental dot net\\carvariantmvc\\carvariantmvc\\models\\authenticationmiddleware.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{15FDEEBB-770A-49BF-A396-70FDA129FD14}|CarVariantMVC\\CarVariantMVC.csproj|solutionrelative:carvariantmvc\\models\\authenticationmiddleware.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{15FDEEBB-770A-49BF-A396-70FDA129FD14}|CarVariantMVC\\CarVariantMVC.csproj|e:\\cdac\\b car rental dot net\\carvariantmvc\\carvariantmvc\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{15FDEEBB-770A-49BF-A396-70FDA129FD14}|CarVariantMVC\\CarVariantMVC.csproj|solutionrelative:carvariantmvc\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{15FDEEBB-770A-49BF-A396-70FDA129FD14}|CarVariantMVC\\CarVariantMVC.csproj|e:\\cdac\\b car rental dot net\\carvariantmvc\\carvariantmvc\\models\\booking.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{15FDEEBB-770A-49BF-A396-70FDA129FD14}|CarVariantMVC\\CarVariantMVC.csproj|solutionrelative:carvariantmvc\\models\\booking.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{15FDEEBB-770A-49BF-A396-70FDA129FD14}|CarVariantMVC\\CarVariantMVC.csproj|e:\\cdac\\b car rental dot net\\carvariantmvc\\carvariantmvc\\controllers\\feedbackcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{15FDEEBB-770A-49BF-A396-70FDA129FD14}|CarVariantMVC\\CarVariantMVC.csproj|solutionrelative:carvariantmvc\\controllers\\feedbackcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{15FDEEBB-770A-49BF-A396-70FDA129FD14}|CarVariantMVC\\CarVariantMVC.csproj|e:\\cdac\\b car rental dot net\\carvariantmvc\\carvariantmvc\\models\\feedback.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{15FDEEBB-770A-49BF-A396-70FDA129FD14}|CarVariantMVC\\CarVariantMVC.csproj|solutionrelative:carvariantmvc\\models\\feedback.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{15FDEEBB-770A-49BF-A396-70FDA129FD14}|CarVariantMVC\\CarVariantMVC.csproj|e:\\cdac\\b car rental dot net\\carvariantmvc\\carvariantmvc\\views\\feedback\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{15FDEEBB-770A-49BF-A396-70FDA129FD14}|CarVariantMVC\\CarVariantMVC.csproj|solutionrelative:carvariantmvc\\views\\feedback\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{15FDEEBB-770A-49BF-A396-70FDA129FD14}|CarVariantMVC\\CarVariantMVC.csproj|e:\\cdac\\b car rental dot net\\carvariantmvc\\carvariantmvc\\views\\bookings\\returncar.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{15FDEEBB-770A-49BF-A396-70FDA129FD14}|CarVariantMVC\\CarVariantMVC.csproj|solutionrelative:carvariantmvc\\views\\bookings\\returncar.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{15FDEEBB-770A-49BF-A396-70FDA129FD14}|CarVariantMVC\\CarVariantMVC.csproj|e:\\cdac\\b car rental dot net\\carvariantmvc\\carvariantmvc\\views\\bookings\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{15FDEEBB-770A-49BF-A396-70FDA129FD14}|CarVariantMVC\\CarVariantMVC.csproj|solutionrelative:carvariantmvc\\views\\bookings\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{15FDEEBB-770A-49BF-A396-70FDA129FD14}|CarVariantMVC\\CarVariantMVC.csproj|e:\\cdac\\b car rental dot net\\carvariantmvc\\carvariantmvc\\views\\availablecars\\bookingdetails.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{15FDEEBB-770A-49BF-A396-70FDA129FD14}|CarVariantMVC\\CarVariantMVC.csproj|solutionrelative:carvariantmvc\\views\\availablecars\\bookingdetails.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{15FDEEBB-770A-49BF-A396-70FDA129FD14}|CarVariantMVC\\CarVariantMVC.csproj|e:\\cdac\\b car rental dot net\\carvariantmvc\\carvariantmvc\\views\\availablecars\\availablecars.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{15FDEEBB-770A-49BF-A396-70FDA129FD14}|CarVariantMVC\\CarVariantMVC.csproj|solutionrelative:carvariantmvc\\views\\availablecars\\availablecars.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{15FDEEBB-770A-49BF-A396-70FDA129FD14}|CarVariantMVC\\CarVariantMVC.csproj|e:\\cdac\\b car rental dot net\\carvariantmvc\\carvariantmvc\\controllers\\availablecarscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{15FDEEBB-770A-49BF-A396-70FDA129FD14}|CarVariantMVC\\CarVariantMVC.csproj|solutionrelative:carvariantmvc\\controllers\\availablecarscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{15FDEEBB-770A-49BF-A396-70FDA129FD14}|CarVariantMVC\\CarVariantMVC.csproj|e:\\cdac\\b car rental dot net\\carvariantmvc\\carvariantmvc\\views\\variant\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{15FDEEBB-770A-49BF-A396-70FDA129FD14}|CarVariantMVC\\CarVariantMVC.csproj|solutionrelative:carvariantmvc\\views\\variant\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{15FDEEBB-770A-49BF-A396-70FDA129FD14}|CarVariantMVC\\CarVariantMVC.csproj|e:\\cdac\\b car rental dot net\\carvariantmvc\\carvariantmvc\\views\\variant\\createvariant.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{15FDEEBB-770A-49BF-A396-70FDA129FD14}|CarVariantMVC\\CarVariantMVC.csproj|solutionrelative:carvariantmvc\\views\\variant\\createvariant.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{15FDEEBB-770A-49BF-A396-70FDA129FD14}|CarVariantMVC\\CarVariantMVC.csproj|e:\\cdac\\b car rental dot net\\carvariantmvc\\carvariantmvc\\views\\account\\register.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{15FDEEBB-770A-49BF-A396-70FDA129FD14}|CarVariantMVC\\CarVariantMVC.csproj|solutionrelative:carvariantmvc\\views\\account\\register.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{15FDEEBB-770A-49BF-A396-70FDA129FD14}|CarVariantMVC\\CarVariantMVC.csproj|e:\\cdac\\b car rental dot net\\carvariantmvc\\carvariantmvc\\views\\shared\\_usernavbar.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{15FDEEBB-770A-49BF-A396-70FDA129FD14}|CarVariantMVC\\CarVariantMVC.csproj|solutionrelative:carvariantmvc\\views\\shared\\_usernavbar.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{15FDEEBB-770A-49BF-A396-70FDA129FD14}|CarVariantMVC\\CarVariantMVC.csproj|e:\\cdac\\b car rental dot net\\carvariantmvc\\carvariantmvc\\views\\home\\about.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{15FDEEBB-770A-49BF-A396-70FDA129FD14}|CarVariantMVC\\CarVariantMVC.csproj|solutionrelative:carvariantmvc\\views\\home\\about.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{15FDEEBB-770A-49BF-A396-70FDA129FD14}|CarVariantMVC\\CarVariantMVC.csproj|e:\\cdac\\b car rental dot net\\carvariantmvc\\carvariantmvc\\views\\shared\\_adminnavbar.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{15FDEEBB-770A-49BF-A396-70FDA129FD14}|CarVariantMVC\\CarVariantMVC.csproj|solutionrelative:carvariantmvc\\views\\shared\\_adminnavbar.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{15FDEEBB-770A-49BF-A396-70FDA129FD14}|CarVariantMVC\\CarVariantMVC.csproj|e:\\cdac\\b car rental dot net\\carvariantmvc\\carvariantmvc\\views\\shared\\_validationscriptspartial.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{15FDEEBB-770A-49BF-A396-70FDA129FD14}|CarVariantMVC\\CarVariantMVC.csproj|solutionrelative:carvariantmvc\\views\\shared\\_validationscriptspartial.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{15FDEEBB-770A-49BF-A396-70FDA129FD14}|CarVariantMVC\\CarVariantMVC.csproj|e:\\cdac\\b car rental dot net\\carvariantmvc\\carvariantmvc\\views\\shared\\error.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{15FDEEBB-770A-49BF-A396-70FDA129FD14}|CarVariantMVC\\CarVariantMVC.csproj|solutionrelative:carvariantmvc\\views\\shared\\error.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{15FDEEBB-770A-49BF-A396-70FDA129FD14}|CarVariantMVC\\CarVariantMVC.csproj|e:\\cdac\\b car rental dot net\\carvariantmvc\\carvariantmvc\\wwwroot\\css\\site.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "RelativeMoniker": "D:0:0:{15FDEEBB-770A-49BF-A396-70FDA129FD14}|CarVariantMVC\\CarVariantMVC.csproj|solutionrelative:carvariantmvc\\wwwroot\\css\\site.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{15FDEEBB-770A-49BF-A396-70FDA129FD14}|CarVariantMVC\\CarVariantMVC.csproj|e:\\cdac\\b car rental dot net\\carvariantmvc\\carvariantmvc\\wwwroot\\css\\home_contact.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "RelativeMoniker": "D:0:0:{15FDEEBB-770A-49BF-A396-70FDA129FD14}|CarVariantMVC\\CarVariantMVC.csproj|solutionrelative:carvariantmvc\\wwwroot\\css\\home_contact.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{15FDEEBB-770A-49BF-A396-70FDA129FD14}|CarVariantMVC\\CarVariantMVC.csproj|e:\\cdac\\b car rental dot net\\carvariantmvc\\carvariantmvc\\wwwroot\\css\\home_about.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "RelativeMoniker": "D:0:0:{15FDEEBB-770A-49BF-A396-70FDA129FD14}|CarVariantMVC\\CarVariantMVC.csproj|solutionrelative:carvariantmvc\\wwwroot\\css\\home_about.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{15FDEEBB-770A-49BF-A396-70FDA129FD14}|CarVariantMVC\\CarVariantMVC.csproj|e:\\cdac\\b car rental dot net\\carvariantmvc\\carvariantmvc\\views\\home\\privacy.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{15FDEEBB-770A-49BF-A396-70FDA129FD14}|CarVariantMVC\\CarVariantMVC.csproj|solutionrelative:carvariantmvc\\views\\home\\privacy.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{15FDEEBB-770A-49BF-A396-70FDA129FD14}|CarVariantMVC\\CarVariantMVC.csproj|e:\\cdac\\b car rental dot net\\carvariantmvc\\carvariantmvc\\views\\home\\contact.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{15FDEEBB-770A-49BF-A396-70FDA129FD14}|CarVariantMVC\\CarVariantMVC.csproj|solutionrelative:carvariantmvc\\views\\home\\contact.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{15FDEEBB-770A-49BF-A396-70FDA129FD14}|CarVariantMVC\\CarVariantMVC.csproj|e:\\cdac\\b car rental dot net\\carvariantmvc\\carvariantmvc\\views\\users\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{15FDEEBB-770A-49BF-A396-70FDA129FD14}|CarVariantMVC\\CarVariantMVC.csproj|solutionrelative:carvariantmvc\\views\\users\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{15FDEEBB-770A-49BF-A396-70FDA129FD14}|CarVariantMVC\\CarVariantMVC.csproj|e:\\cdac\\b car rental dot net\\carvariantmvc\\carvariantmvc\\views\\companies\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{15FDEEBB-770A-49BF-A396-70FDA129FD14}|CarVariantMVC\\CarVariantMVC.csproj|solutionrelative:carvariantmvc\\views\\companies\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{15FDEEBB-770A-49BF-A396-70FDA129FD14}|CarVariantMVC\\CarVariantMVC.csproj|e:\\cdac\\b car rental dot net\\carvariantmvc\\carvariantmvc\\views\\companies\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{15FDEEBB-770A-49BF-A396-70FDA129FD14}|CarVariantMVC\\CarVariantMVC.csproj|solutionrelative:carvariantmvc\\views\\companies\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{15FDEEBB-770A-49BF-A396-70FDA129FD14}|CarVariantMVC\\CarVariantMVC.csproj|e:\\cdac\\b car rental dot net\\carvariantmvc\\carvariantmvc\\views\\companies\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{15FDEEBB-770A-49BF-A396-70FDA129FD14}|CarVariantMVC\\CarVariantMVC.csproj|solutionrelative:carvariantmvc\\views\\companies\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{15FDEEBB-770A-49BF-A396-70FDA129FD14}|CarVariantMVC\\CarVariantMVC.csproj|e:\\cdac\\b car rental dot net\\carvariantmvc\\carvariantmvc\\views\\companies\\delete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{15FDEEBB-770A-49BF-A396-70FDA129FD14}|CarVariantMVC\\CarVariantMVC.csproj|solutionrelative:carvariantmvc\\views\\companies\\delete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{15FDEEBB-770A-49BF-A396-70FDA129FD14}|CarVariantMVC\\CarVariantMVC.csproj|e:\\cdac\\b car rental dot net\\carvariantmvc\\carvariantmvc\\views\\account\\login.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{15FDEEBB-770A-49BF-A396-70FDA129FD14}|CarVariantMVC\\CarVariantMVC.csproj|solutionrelative:carvariantmvc\\views\\account\\login.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{15FDEEBB-770A-49BF-A396-70FDA129FD14}|CarVariantMVC\\CarVariantMVC.csproj|e:\\cdac\\b car rental dot net\\carvariantmvc\\carvariantmvc\\views\\users\\profile.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{15FDEEBB-770A-49BF-A396-70FDA129FD14}|CarVariantMVC\\CarVariantMVC.csproj|solutionrelative:carvariantmvc\\views\\users\\profile.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{15FDEEBB-770A-49BF-A396-70FDA129FD14}|CarVariantMVC\\CarVariantMVC.csproj|e:\\cdac\\b car rental dot net\\carvariantmvc\\carvariantmvc\\views\\users\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{15FDEEBB-770A-49BF-A396-70FDA129FD14}|CarVariantMVC\\CarVariantMVC.csproj|solutionrelative:carvariantmvc\\views\\users\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{15FDEEBB-770A-49BF-A396-70FDA129FD14}|CarVariantMVC\\CarVariantMVC.csproj|e:\\cdac\\b car rental dot net\\carvariantmvc\\carvariantmvc\\views\\users\\delete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{15FDEEBB-770A-49BF-A396-70FDA129FD14}|CarVariantMVC\\CarVariantMVC.csproj|solutionrelative:carvariantmvc\\views\\users\\delete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{15FDEEBB-770A-49BF-A396-70FDA129FD14}|CarVariantMVC\\CarVariantMVC.csproj|e:\\cdac\\b car rental dot net\\carvariantmvc\\carvariantmvc\\views\\variant\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{15FDEEBB-770A-49BF-A396-70FDA129FD14}|CarVariantMVC\\CarVariantMVC.csproj|solutionrelative:carvariantmvc\\views\\variant\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{15FDEEBB-770A-49BF-A396-70FDA129FD14}|CarVariantMVC\\CarVariantMVC.csproj|e:\\cdac\\b car rental dot net\\carvariantmvc\\carvariantmvc\\views\\variant\\delete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{15FDEEBB-770A-49BF-A396-70FDA129FD14}|CarVariantMVC\\CarVariantMVC.csproj|solutionrelative:carvariantmvc\\views\\variant\\delete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{15FDEEBB-770A-49BF-A396-70FDA129FD14}|CarVariantMVC\\CarVariantMVC.csproj|e:\\cdac\\b car rental dot net\\carvariantmvc\\carvariantmvc\\views\\admin\\admindashboard.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{15FDEEBB-770A-49BF-A396-70FDA129FD14}|CarVariantMVC\\CarVariantMVC.csproj|solutionrelative:carvariantmvc\\views\\admin\\admindashboard.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{15FDEEBB-770A-49BF-A396-70FDA129FD14}|CarVariantMVC\\CarVariantMVC.csproj|e:\\cdac\\b car rental dot net\\carvariantmvc\\carvariantmvc\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{15FDEEBB-770A-49BF-A396-70FDA129FD14}|CarVariantMVC\\CarVariantMVC.csproj|solutionrelative:carvariantmvc\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{15FDEEBB-770A-49BF-A396-70FDA129FD14}|CarVariantMVC\\CarVariantMVC.csproj|e:\\cdac\\b car rental dot net\\carvariantmvc\\carvariantmvc\\views\\shared\\_layout.cshtml.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "RelativeMoniker": "D:0:0:{15FDEEBB-770A-49BF-A396-70FDA129FD14}|CarVariantMVC\\CarVariantMVC.csproj|solutionrelative:carvariantmvc\\views\\shared\\_layout.cshtml.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{15FDEEBB-770A-49BF-A396-70FDA129FD14}|CarVariantMVC\\CarVariantMVC.csproj|e:\\cdac\\b car rental dot net\\carvariantmvc\\carvariantmvc\\views\\users\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{15FDEEBB-770A-49BF-A396-70FDA129FD14}|CarVariantMVC\\CarVariantMVC.csproj|solutionrelative:carvariantmvc\\views\\users\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{15FDEEBB-770A-49BF-A396-70FDA129FD14}|CarVariantMVC\\CarVariantMVC.csproj|e:\\cdac\\b car rental dot net\\carvariantmvc\\carvariantmvc\\views\\user\\userdashboard.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{15FDEEBB-770A-49BF-A396-70FDA129FD14}|CarVariantMVC\\CarVariantMVC.csproj|solutionrelative:carvariantmvc\\views\\user\\userdashboard.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{15FDEEBB-770A-49BF-A396-70FDA129FD14}|CarVariantMVC\\CarVariantMVC.csproj|e:\\cdac\\b car rental dot net\\carvariantmvc\\carvariantmvc\\views\\variant\\deleteconfirmed.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{15FDEEBB-770A-49BF-A396-70FDA129FD14}|CarVariantMVC\\CarVariantMVC.csproj|solutionrelative:carvariantmvc\\views\\variant\\deleteconfirmed.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{15FDEEBB-770A-49BF-A396-70FDA129FD14}|CarVariantMVC\\CarVariantMVC.csproj|e:\\cdac\\b car rental dot net\\carvariantmvc\\carvariantmvc\\controllers\\variantcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{15FDEEBB-770A-49BF-A396-70FDA129FD14}|CarVariantMVC\\CarVariantMVC.csproj|solutionrelative:carvariantmvc\\controllers\\variantcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{15FDEEBB-770A-49BF-A396-70FDA129FD14}|CarVariantMVC\\CarVariantMVC.csproj|e:\\cdac\\b car rental dot net\\carvariantmvc\\carvariantmvc\\controllers\\userscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{15FDEEBB-770A-49BF-A396-70FDA129FD14}|CarVariantMVC\\CarVariantMVC.csproj|solutionrelative:carvariantmvc\\controllers\\userscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{15FDEEBB-770A-49BF-A396-70FDA129FD14}|CarVariantMVC\\CarVariantMVC.csproj|e:\\cdac\\b car rental dot net\\carvariantmvc\\carvariantmvc\\models\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{15FDEEBB-770A-49BF-A396-70FDA129FD14}|CarVariantMVC\\CarVariantMVC.csproj|solutionrelative:carvariantmvc\\models\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{15FDEEBB-770A-49BF-A396-70FDA129FD14}|CarVariantMVC\\CarVariantMVC.csproj|e:\\cdac\\b car rental dot net\\carvariantmvc\\carvariantmvc\\controllers\\usercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{15FDEEBB-770A-49BF-A396-70FDA129FD14}|CarVariantMVC\\CarVariantMVC.csproj|solutionrelative:carvariantmvc\\controllers\\usercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{15FDEEBB-770A-49BF-A396-70FDA129FD14}|CarVariantMVC\\CarVariantMVC.csproj|e:\\cdac\\b car rental dot net\\carvariantmvc\\carvariantmvc\\models\\feedbackviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{15FDEEBB-770A-49BF-A396-70FDA129FD14}|CarVariantMVC\\CarVariantMVC.csproj|solutionrelative:carvariantmvc\\models\\feedbackviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{15FDEEBB-770A-49BF-A396-70FDA129FD14}|CarVariantMVC\\CarVariantMVC.csproj|e:\\cdac\\b car rental dot net\\carvariantmvc\\carvariantmvc\\models\\userregistrationviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{15FDEEBB-770A-49BF-A396-70FDA129FD14}|CarVariantMVC\\CarVariantMVC.csproj|solutionrelative:carvariantmvc\\models\\userregistrationviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{15FDEEBB-770A-49BF-A396-70FDA129FD14}|CarVariantMVC\\CarVariantMVC.csproj|e:\\cdac\\b car rental dot net\\carvariantmvc\\carvariantmvc\\controllers\\companiescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{15FDEEBB-770A-49BF-A396-70FDA129FD14}|CarVariantMVC\\CarVariantMVC.csproj|solutionrelative:carvariantmvc\\controllers\\companiescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{15FDEEBB-770A-49BF-A396-70FDA129FD14}|CarVariantMVC\\CarVariantMVC.csproj|e:\\cdac\\b car rental dot net\\carvariantmvc\\carvariantmvc\\models\\carvarianttestcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{15FDEEBB-770A-49BF-A396-70FDA129FD14}|CarVariantMVC\\CarVariantMVC.csproj|solutionrelative:carvariantmvc\\models\\carvarianttestcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{15FDEEBB-770A-49BF-A396-70FDA129FD14}|CarVariantMVC\\CarVariantMVC.csproj|e:\\cdac\\b car rental dot net\\carvariantmvc\\carvariantmvc\\models\\admindashboardviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{15FDEEBB-770A-49BF-A396-70FDA129FD14}|CarVariantMVC\\CarVariantMVC.csproj|solutionrelative:carvariantmvc\\models\\admindashboardviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{15FDEEBB-770A-49BF-A396-70FDA129FD14}|CarVariantMVC\\CarVariantMVC.csproj|e:\\cdac\\b car rental dot net\\carvariantmvc\\carvariantmvc\\controllers\\bookingscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{15FDEEBB-770A-49BF-A396-70FDA129FD14}|CarVariantMVC\\CarVariantMVC.csproj|solutionrelative:carvariantmvc\\controllers\\bookingscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{15FDEEBB-770A-49BF-A396-70FDA129FD14}|CarVariantMVC\\CarVariantMVC.csproj|e:\\cdac\\b car rental dot net\\carvariantmvc\\carvariantmvc\\models\\variantviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{15FDEEBB-770A-49BF-A396-70FDA129FD14}|CarVariantMVC\\CarVariantMVC.csproj|solutionrelative:carvariantmvc\\models\\variantviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{15FDEEBB-770A-49BF-A396-70FDA129FD14}|CarVariantMVC\\CarVariantMVC.csproj|e:\\cdac\\b car rental dot net\\carvariantmvc\\carvariantmvc\\models\\variant.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{15FDEEBB-770A-49BF-A396-70FDA129FD14}|CarVariantMVC\\CarVariantMVC.csproj|solutionrelative:carvariantmvc\\models\\variant.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{15FDEEBB-770A-49BF-A396-70FDA129FD14}|CarVariantMVC\\CarVariantMVC.csproj|e:\\cdac\\b car rental dot net\\carvariantmvc\\carvariantmvc\\models\\company.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{15FDEEBB-770A-49BF-A396-70FDA129FD14}|CarVariantMVC\\CarVariantMVC.csproj|solutionrelative:carvariantmvc\\models\\company.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{15FDEEBB-770A-49BF-A396-70FDA129FD14}|CarVariantMVC\\CarVariantMVC.csproj|e:\\cdac\\b car rental dot net\\carvariantmvc\\carvariantmvc\\models\\loginviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{15FDEEBB-770A-49BF-A396-70FDA129FD14}|CarVariantMVC\\CarVariantMVC.csproj|solutionrelative:carvariantmvc\\models\\loginviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{15FDEEBB-770A-49BF-A396-70FDA129FD14}|CarVariantMVC\\CarVariantMVC.csproj|e:\\cdac\\b car rental dot net\\carvariantmvc\\carvariantmvc\\models\\bookingviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{15FDEEBB-770A-49BF-A396-70FDA129FD14}|CarVariantMVC\\CarVariantMVC.csproj|solutionrelative:carvariantmvc\\models\\bookingviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{15FDEEBB-770A-49BF-A396-70FDA129FD14}|CarVariantMVC\\CarVariantMVC.csproj|e:\\cdac\\b car rental dot net\\carvariantmvc\\carvariantmvc\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{15FDEEBB-770A-49BF-A396-70FDA129FD14}|CarVariantMVC\\CarVariantMVC.csproj|solutionrelative:carvariantmvc\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 195,
+          "SelectedChildIndex": 9,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{e1b7d1f8-9b3c-49b1-8f4f-bfc63a88835d}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{3ae79031-e1bc-11d0-8f78-00a0c9110057}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "Feedback.cs",
+              "DocumentMoniker": "E:\\CDAC\\B car rental dot net\\CarVariantMVC\\CarVariantMVC\\Models\\Feedback.cs",
+              "RelativeDocumentMoniker": "CarVariantMVC\\Models\\Feedback.cs",
+              "ToolTip": "E:\\CDAC\\B car rental dot net\\CarVariantMVC\\CarVariantMVC\\Models\\Feedback.cs",
+              "RelativeToolTip": "CarVariantMVC\\Models\\Feedback.cs",
+              "ViewState": "AQIAAAkAAAAAAAAAAAA1wAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-14T18:42:15.949Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "Create.cshtml",
+              "DocumentMoniker": "E:\\CDAC\\B car rental dot net\\CarVariantMVC\\CarVariantMVC\\Views\\Feedback\\Create.cshtml",
+              "RelativeDocumentMoniker": "CarVariantMVC\\Views\\Feedback\\Create.cshtml",
+              "ToolTip": "E:\\CDAC\\B car rental dot net\\CarVariantMVC\\CarVariantMVC\\Views\\Feedback\\Create.cshtml",
+              "RelativeToolTip": "CarVariantMVC\\Views\\Feedback\\Create.cshtml",
+              "ViewState": "AQIAAFEAAAAAAAAAAAAAACcAAAAkAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-08-14T18:42:15.879Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "FeedbackController.cs",
+              "DocumentMoniker": "E:\\CDAC\\B car rental dot net\\CarVariantMVC\\CarVariantMVC\\Controllers\\FeedbackController.cs",
+              "RelativeDocumentMoniker": "CarVariantMVC\\Controllers\\FeedbackController.cs",
+              "ToolTip": "E:\\CDAC\\B car rental dot net\\CarVariantMVC\\CarVariantMVC\\Controllers\\FeedbackController.cs",
+              "RelativeToolTip": "CarVariantMVC\\Controllers\\FeedbackController.cs",
+              "ViewState": "AQIAAKEAAAAAAAAAAAAqwLgAAAATAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-14T18:42:15.844Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "_ViewStart.cshtml",
+              "DocumentMoniker": "E:\\CDAC\\B car rental dot net\\CarVariantMVC\\CarVariantMVC\\Views\\_ViewStart.cshtml",
+              "RelativeDocumentMoniker": "CarVariantMVC\\Views\\_ViewStart.cshtml",
+              "ToolTip": "E:\\CDAC\\B car rental dot net\\CarVariantMVC\\CarVariantMVC\\Views\\_ViewStart.cshtml",
+              "RelativeToolTip": "CarVariantMVC\\Views\\_ViewStart.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-08-14T18:43:52.275Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "E:\\CDAC\\B car rental dot net\\CarVariantMVC\\CarVariantMVC\\Views\\Home\\Index.cshtml",
+              "RelativeDocumentMoniker": "CarVariantMVC\\Views\\Home\\Index.cshtml",
+              "ToolTip": "E:\\CDAC\\B car rental dot net\\CarVariantMVC\\CarVariantMVC\\Views\\Home\\Index.cshtml",
+              "RelativeToolTip": "CarVariantMVC\\Views\\Home\\Index.cshtml",
+              "ViewState": "AQIAAMIAAAAAAAAAAAAAAE0AAAByAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-08-14T18:42:15.928Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "_ViewImports.cshtml",
+              "DocumentMoniker": "E:\\CDAC\\B car rental dot net\\CarVariantMVC\\CarVariantMVC\\Views\\_ViewImports.cshtml",
+              "RelativeDocumentMoniker": "CarVariantMVC\\Views\\_ViewImports.cshtml",
+              "ToolTip": "E:\\CDAC\\B car rental dot net\\CarVariantMVC\\CarVariantMVC\\Views\\_ViewImports.cshtml",
+              "RelativeToolTip": "CarVariantMVC\\Views\\_ViewImports.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-08-14T18:43:45.495Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "E:\\CDAC\\B car rental dot net\\CarVariantMVC\\CarVariantMVC\\Views\\Variant\\Index.cshtml",
+              "RelativeDocumentMoniker": "CarVariantMVC\\Views\\Variant\\Index.cshtml",
+              "ToolTip": "E:\\CDAC\\B car rental dot net\\CarVariantMVC\\CarVariantMVC\\Views\\Variant\\Index.cshtml",
+              "RelativeToolTip": "CarVariantMVC\\Views\\Variant\\Index.cshtml",
+              "ViewState": "AQIAAL8AAAAAAAAAAAAAADEAAAA3AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-08-14T18:42:16Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "_Layout.cshtml",
+              "DocumentMoniker": "E:\\CDAC\\B car rental dot net\\CarVariantMVC\\CarVariantMVC\\Views\\Shared\\_Layout.cshtml",
+              "RelativeDocumentMoniker": "CarVariantMVC\\Views\\Shared\\_Layout.cshtml",
+              "ToolTip": "E:\\CDAC\\B car rental dot net\\CarVariantMVC\\CarVariantMVC\\Views\\Shared\\_Layout.cshtml",
+              "RelativeToolTip": "CarVariantMVC\\Views\\Shared\\_Layout.cshtml",
+              "ViewState": "AQIAAF0AAAAAAAAAAAAAAGIAAAAJAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-08-14T18:42:15.908Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "E:\\CDAC\\B car rental dot net\\CarVariantMVC\\CarVariantMVC\\Views\\Bookings\\Index.cshtml",
+              "RelativeDocumentMoniker": "CarVariantMVC\\Views\\Bookings\\Index.cshtml",
+              "ToolTip": "E:\\CDAC\\B car rental dot net\\CarVariantMVC\\CarVariantMVC\\Views\\Bookings\\Index.cshtml",
+              "RelativeToolTip": "CarVariantMVC\\Views\\Bookings\\Index.cshtml",
+              "ViewState": "AQIAAD8AAAAAAAAAAAAAADEAAAAdAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-08-14T18:42:15.981Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "AdminController.cs",
+              "DocumentMoniker": "E:\\CDAC\\B car rental dot net\\CarVariantMVC\\CarVariantMVC\\Controllers\\AdminController.cs",
+              "RelativeDocumentMoniker": "CarVariantMVC\\Controllers\\AdminController.cs",
+              "ToolTip": "E:\\CDAC\\B car rental dot net\\CarVariantMVC\\CarVariantMVC\\Controllers\\AdminController.cs",
+              "RelativeToolTip": "CarVariantMVC\\Controllers\\AdminController.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA4AAAAKAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-14T18:42:16.023Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "AuthenticationMiddleWare.cs",
+              "DocumentMoniker": "E:\\CDAC\\B car rental dot net\\CarVariantMVC\\CarVariantMVC\\Models\\AuthenticationMiddleWare.cs",
+              "RelativeDocumentMoniker": "CarVariantMVC\\Models\\AuthenticationMiddleWare.cs",
+              "ToolTip": "E:\\CDAC\\B car rental dot net\\CarVariantMVC\\CarVariantMVC\\Models\\AuthenticationMiddleWare.cs",
+              "RelativeToolTip": "CarVariantMVC\\Models\\AuthenticationMiddleWare.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABoAAABSAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-14T18:42:15.932Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "ReturnCar.cshtml",
+              "DocumentMoniker": "E:\\CDAC\\B car rental dot net\\CarVariantMVC\\CarVariantMVC\\Views\\Bookings\\ReturnCar.cshtml",
+              "RelativeDocumentMoniker": "CarVariantMVC\\Views\\Bookings\\ReturnCar.cshtml",
+              "ToolTip": "E:\\CDAC\\B car rental dot net\\CarVariantMVC\\CarVariantMVC\\Views\\Bookings\\ReturnCar.cshtml",
+              "RelativeToolTip": "CarVariantMVC\\Views\\Bookings\\ReturnCar.cshtml",
+              "ViewState": "AQIAAEQAAAAAAAAAAAAAABkAAAAHAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-08-14T18:42:15.968Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "Program.cs",
+              "DocumentMoniker": "E:\\CDAC\\B car rental dot net\\CarVariantMVC\\CarVariantMVC\\Program.cs",
+              "RelativeDocumentMoniker": "CarVariantMVC\\Program.cs",
+              "ToolTip": "E:\\CDAC\\B car rental dot net\\CarVariantMVC\\CarVariantMVC\\Program.cs",
+              "RelativeToolTip": "CarVariantMVC\\Program.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABIAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-14T18:42:16.038Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "Booking.cs",
+              "DocumentMoniker": "E:\\CDAC\\B car rental dot net\\CarVariantMVC\\CarVariantMVC\\Models\\Booking.cs",
+              "RelativeDocumentMoniker": "CarVariantMVC\\Models\\Booking.cs",
+              "ToolTip": "E:\\CDAC\\B car rental dot net\\CarVariantMVC\\CarVariantMVC\\Models\\Booking.cs",
+              "RelativeToolTip": "CarVariantMVC\\Models\\Booking.cs",
+              "ViewState": "AQIAABcAAAAAAAAAAAAUwAsAAAAmAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-14T18:42:15.92Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "AccountController.cs",
+              "DocumentMoniker": "E:\\CDAC\\B car rental dot net\\CarVariantMVC\\CarVariantMVC\\Controllers\\AccountController.cs",
+              "RelativeDocumentMoniker": "CarVariantMVC\\Controllers\\AccountController.cs",
+              "ToolTip": "E:\\CDAC\\B car rental dot net\\CarVariantMVC\\CarVariantMVC\\Controllers\\AccountController.cs",
+              "RelativeToolTip": "CarVariantMVC\\Controllers\\AccountController.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABQAAAASAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-14T18:42:15.984Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "BookingDetails.cshtml",
+              "DocumentMoniker": "E:\\CDAC\\B car rental dot net\\CarVariantMVC\\CarVariantMVC\\Views\\AvailableCars\\BookingDetails.cshtml",
+              "RelativeDocumentMoniker": "CarVariantMVC\\Views\\AvailableCars\\BookingDetails.cshtml",
+              "ToolTip": "E:\\CDAC\\B car rental dot net\\CarVariantMVC\\CarVariantMVC\\Views\\AvailableCars\\BookingDetails.cshtml",
+              "RelativeToolTip": "CarVariantMVC\\Views\\AvailableCars\\BookingDetails.cshtml",
+              "ViewState": "AQIAAL4AAAAAAAAAAAAmwIQAAAAIAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-08-14T18:42:16.005Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "AvailableCars.cshtml",
+              "DocumentMoniker": "E:\\CDAC\\B car rental dot net\\CarVariantMVC\\CarVariantMVC\\Views\\AvailableCars\\AvailableCars.cshtml",
+              "RelativeDocumentMoniker": "CarVariantMVC\\Views\\AvailableCars\\AvailableCars.cshtml",
+              "ToolTip": "E:\\CDAC\\B car rental dot net\\CarVariantMVC\\CarVariantMVC\\Views\\AvailableCars\\AvailableCars.cshtml",
+              "RelativeToolTip": "CarVariantMVC\\Views\\AvailableCars\\AvailableCars.cshtml",
+              "ViewState": "AQIAAEgAAAAAAAAAAAAAABcAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-08-14T18:42:15.925Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "AvailableCarsController.cs",
+              "DocumentMoniker": "E:\\CDAC\\B car rental dot net\\CarVariantMVC\\CarVariantMVC\\Controllers\\AvailableCarsController.cs",
+              "RelativeDocumentMoniker": "CarVariantMVC\\Controllers\\AvailableCarsController.cs",
+              "ToolTip": "E:\\CDAC\\B car rental dot net\\CarVariantMVC\\CarVariantMVC\\Controllers\\AvailableCarsController.cs",
+              "RelativeToolTip": "CarVariantMVC\\Controllers\\AvailableCarsController.cs",
+              "ViewState": "AQIAAAYAAAAAAAAAAAAAABYAAAAnAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-14T18:42:15.973Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "Edit.cshtml",
+              "DocumentMoniker": "E:\\CDAC\\B car rental dot net\\CarVariantMVC\\CarVariantMVC\\Views\\Variant\\Edit.cshtml",
+              "RelativeDocumentMoniker": "CarVariantMVC\\Views\\Variant\\Edit.cshtml",
+              "ToolTip": "E:\\CDAC\\B car rental dot net\\CarVariantMVC\\CarVariantMVC\\Views\\Variant\\Edit.cshtml",
+              "RelativeToolTip": "CarVariantMVC\\Views\\Variant\\Edit.cshtml",
+              "ViewState": "AQIAAAkAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-08-14T18:42:16.016Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "CreateVariant.cshtml",
+              "DocumentMoniker": "E:\\CDAC\\B car rental dot net\\CarVariantMVC\\CarVariantMVC\\Views\\Variant\\CreateVariant.cshtml",
+              "RelativeDocumentMoniker": "CarVariantMVC\\Views\\Variant\\CreateVariant.cshtml",
+              "ToolTip": "E:\\CDAC\\B car rental dot net\\CarVariantMVC\\CarVariantMVC\\Views\\Variant\\CreateVariant.cshtml",
+              "RelativeToolTip": "CarVariantMVC\\Views\\Variant\\CreateVariant.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-08-14T18:42:15.997Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "Register.cshtml",
+              "DocumentMoniker": "E:\\CDAC\\B car rental dot net\\CarVariantMVC\\CarVariantMVC\\Views\\Account\\Register.cshtml",
+              "RelativeDocumentMoniker": "CarVariantMVC\\Views\\Account\\Register.cshtml",
+              "ToolTip": "E:\\CDAC\\B car rental dot net\\CarVariantMVC\\CarVariantMVC\\Views\\Account\\Register.cshtml",
+              "RelativeToolTip": "CarVariantMVC\\Views\\Account\\Register.cshtml",
+              "ViewState": "AQIAAAwAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-08-14T18:42:15.939Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
+              "Title": "_UserNavbar.cshtml",
+              "DocumentMoniker": "E:\\CDAC\\B car rental dot net\\CarVariantMVC\\CarVariantMVC\\Views\\Shared\\_UserNavbar.cshtml",
+              "RelativeDocumentMoniker": "CarVariantMVC\\Views\\Shared\\_UserNavbar.cshtml",
+              "ToolTip": "E:\\CDAC\\B car rental dot net\\CarVariantMVC\\CarVariantMVC\\Views\\Shared\\_UserNavbar.cshtml",
+              "RelativeToolTip": "CarVariantMVC\\Views\\Shared\\_UserNavbar.cshtml",
+              "ViewState": "AQIAAA8AAAAAAAAAAAAAAEUAAAAZAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-08-14T18:42:15.916Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 22,
+              "Title": "About.cshtml",
+              "DocumentMoniker": "E:\\CDAC\\B car rental dot net\\CarVariantMVC\\CarVariantMVC\\Views\\Home\\About.cshtml",
+              "RelativeDocumentMoniker": "CarVariantMVC\\Views\\Home\\About.cshtml",
+              "ToolTip": "E:\\CDAC\\B car rental dot net\\CarVariantMVC\\CarVariantMVC\\Views\\Home\\About.cshtml",
+              "RelativeToolTip": "CarVariantMVC\\Views\\Home\\About.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAFsAAABMAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-08-14T18:50:24.952Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 23,
+              "Title": "_AdminNavbar.cshtml",
+              "DocumentMoniker": "E:\\CDAC\\B car rental dot net\\CarVariantMVC\\CarVariantMVC\\Views\\Shared\\_AdminNavbar.cshtml",
+              "RelativeDocumentMoniker": "CarVariantMVC\\Views\\Shared\\_AdminNavbar.cshtml",
+              "ToolTip": "E:\\CDAC\\B car rental dot net\\CarVariantMVC\\CarVariantMVC\\Views\\Shared\\_AdminNavbar.cshtml",
+              "RelativeToolTip": "CarVariantMVC\\Views\\Shared\\_AdminNavbar.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAGwAAAADAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-08-14T18:42:15.912Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 26,
+              "Title": "site.css",
+              "DocumentMoniker": "E:\\CDAC\\B car rental dot net\\CarVariantMVC\\CarVariantMVC\\wwwroot\\css\\site.css",
+              "RelativeDocumentMoniker": "CarVariantMVC\\wwwroot\\css\\site.css",
+              "ToolTip": "E:\\CDAC\\B car rental dot net\\CarVariantMVC\\CarVariantMVC\\wwwroot\\css\\site.css",
+              "RelativeToolTip": "CarVariantMVC\\wwwroot\\css\\site.css",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABIAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
+              "WhenOpened": "2024-08-15T11:58:54.084Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 25,
+              "Title": "Error.cshtml",
+              "DocumentMoniker": "E:\\CDAC\\B car rental dot net\\CarVariantMVC\\CarVariantMVC\\Views\\Shared\\Error.cshtml",
+              "RelativeDocumentMoniker": "CarVariantMVC\\Views\\Shared\\Error.cshtml",
+              "ToolTip": "E:\\CDAC\\B car rental dot net\\CarVariantMVC\\CarVariantMVC\\Views\\Shared\\Error.cshtml",
+              "RelativeToolTip": "CarVariantMVC\\Views\\Shared\\Error.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-08-16T07:09:24.812Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 24,
+              "Title": "_ValidationScriptsPartial.cshtml",
+              "DocumentMoniker": "E:\\CDAC\\B car rental dot net\\CarVariantMVC\\CarVariantMVC\\Views\\Shared\\_ValidationScriptsPartial.cshtml",
+              "RelativeDocumentMoniker": "CarVariantMVC\\Views\\Shared\\_ValidationScriptsPartial.cshtml",
+              "ToolTip": "E:\\CDAC\\B car rental dot net\\CarVariantMVC\\CarVariantMVC\\Views\\Shared\\_ValidationScriptsPartial.cshtml",
+              "RelativeToolTip": "CarVariantMVC\\Views\\Shared\\_ValidationScriptsPartial.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-08-16T07:09:27.003Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 27,
+              "Title": "home_contact.css",
+              "DocumentMoniker": "E:\\CDAC\\B car rental dot net\\CarVariantMVC\\CarVariantMVC\\wwwroot\\css\\home_contact.css",
+              "RelativeDocumentMoniker": "CarVariantMVC\\wwwroot\\css\\home_contact.css",
+              "ToolTip": "E:\\CDAC\\B car rental dot net\\CarVariantMVC\\CarVariantMVC\\wwwroot\\css\\home_contact.css",
+              "RelativeToolTip": "CarVariantMVC\\wwwroot\\css\\home_contact.css",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAB8AAAAXAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
+              "WhenOpened": "2024-08-14T19:40:31.717Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 28,
+              "Title": "home_about.css",
+              "DocumentMoniker": "E:\\CDAC\\B car rental dot net\\CarVariantMVC\\CarVariantMVC\\wwwroot\\css\\home_about.css",
+              "RelativeDocumentMoniker": "CarVariantMVC\\wwwroot\\css\\home_about.css",
+              "ToolTip": "E:\\CDAC\\B car rental dot net\\CarVariantMVC\\CarVariantMVC\\wwwroot\\css\\home_about.css",
+              "RelativeToolTip": "CarVariantMVC\\wwwroot\\css\\home_about.css",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAACwAAAAXAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
+              "WhenOpened": "2024-08-14T19:02:24.62Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 29,
+              "Title": "Privacy.cshtml",
+              "DocumentMoniker": "E:\\CDAC\\B car rental dot net\\CarVariantMVC\\CarVariantMVC\\Views\\Home\\Privacy.cshtml",
+              "RelativeDocumentMoniker": "CarVariantMVC\\Views\\Home\\Privacy.cshtml",
+              "ToolTip": "E:\\CDAC\\B car rental dot net\\CarVariantMVC\\CarVariantMVC\\Views\\Home\\Privacy.cshtml",
+              "RelativeToolTip": "CarVariantMVC\\Views\\Home\\Privacy.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-08-14T18:46:40.917Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 30,
+              "Title": "Contact.cshtml",
+              "DocumentMoniker": "E:\\CDAC\\B car rental dot net\\CarVariantMVC\\CarVariantMVC\\Views\\Home\\Contact.cshtml",
+              "RelativeDocumentMoniker": "CarVariantMVC\\Views\\Home\\Contact.cshtml",
+              "ToolTip": "E:\\CDAC\\B car rental dot net\\CarVariantMVC\\CarVariantMVC\\Views\\Home\\Contact.cshtml",
+              "RelativeToolTip": "CarVariantMVC\\Views\\Home\\Contact.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA4AAAAGAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-08-14T18:52:02.496Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 31,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "E:\\CDAC\\B car rental dot net\\CarVariantMVC\\CarVariantMVC\\Views\\Users\\Index.cshtml",
+              "RelativeDocumentMoniker": "CarVariantMVC\\Views\\Users\\Index.cshtml",
+              "ToolTip": "E:\\CDAC\\B car rental dot net\\CarVariantMVC\\CarVariantMVC\\Views\\Users\\Index.cshtml",
+              "RelativeToolTip": "CarVariantMVC\\Views\\Users\\Index.cshtml",
+              "ViewState": "AQIAABsAAAAAAAAAAAAAACoAAAAdAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-08-14T18:42:16.019Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 32,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "E:\\CDAC\\B car rental dot net\\CarVariantMVC\\CarVariantMVC\\Views\\Companies\\Index.cshtml",
+              "RelativeDocumentMoniker": "CarVariantMVC\\Views\\Companies\\Index.cshtml",
+              "ToolTip": "E:\\CDAC\\B car rental dot net\\CarVariantMVC\\CarVariantMVC\\Views\\Companies\\Index.cshtml",
+              "RelativeToolTip": "CarVariantMVC\\Views\\Companies\\Index.cshtml",
+              "ViewState": "AQIAAF0AAAAAAAAAAAAAAGwAAAAIAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-08-14T18:42:16.046Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 33,
+              "Title": "Edit.cshtml",
+              "DocumentMoniker": "E:\\CDAC\\B car rental dot net\\CarVariantMVC\\CarVariantMVC\\Views\\Companies\\Edit.cshtml",
+              "RelativeDocumentMoniker": "CarVariantMVC\\Views\\Companies\\Edit.cshtml",
+              "ToolTip": "E:\\CDAC\\B car rental dot net\\CarVariantMVC\\CarVariantMVC\\Views\\Companies\\Edit.cshtml",
+              "RelativeToolTip": "CarVariantMVC\\Views\\Companies\\Edit.cshtml",
+              "ViewState": "AQIAADIAAAAAAAAAAAAQwFMAAAA0AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-08-14T18:42:16.055Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 34,
+              "Title": "Details.cshtml",
+              "DocumentMoniker": "E:\\CDAC\\B car rental dot net\\CarVariantMVC\\CarVariantMVC\\Views\\Companies\\Details.cshtml",
+              "RelativeDocumentMoniker": "CarVariantMVC\\Views\\Companies\\Details.cshtml",
+              "ToolTip": "E:\\CDAC\\B car rental dot net\\CarVariantMVC\\CarVariantMVC\\Views\\Companies\\Details.cshtml",
+              "RelativeToolTip": "CarVariantMVC\\Views\\Companies\\Details.cshtml",
+              "ViewState": "AQIAADkAAAAAAAAAAAAAAEMAAAAJAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-08-14T18:42:16.051Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 35,
+              "Title": "Delete.cshtml",
+              "DocumentMoniker": "E:\\CDAC\\B car rental dot net\\CarVariantMVC\\CarVariantMVC\\Views\\Companies\\Delete.cshtml",
+              "RelativeDocumentMoniker": "CarVariantMVC\\Views\\Companies\\Delete.cshtml",
+              "ToolTip": "E:\\CDAC\\B car rental dot net\\CarVariantMVC\\CarVariantMVC\\Views\\Companies\\Delete.cshtml",
+              "RelativeToolTip": "CarVariantMVC\\Views\\Companies\\Delete.cshtml",
+              "ViewState": "AQIAADYAAAAAAAAAAAAAAFUAAAAMAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-08-15T07:47:58.842Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 36,
+              "Title": "Login.cshtml",
+              "DocumentMoniker": "E:\\CDAC\\B car rental dot net\\CarVariantMVC\\CarVariantMVC\\Views\\Account\\Login.cshtml",
+              "RelativeDocumentMoniker": "CarVariantMVC\\Views\\Account\\Login.cshtml",
+              "ToolTip": "E:\\CDAC\\B car rental dot net\\CarVariantMVC\\CarVariantMVC\\Views\\Account\\Login.cshtml",
+              "RelativeToolTip": "CarVariantMVC\\Views\\Account\\Login.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAEQAAAAbAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-08-14T18:42:15.945Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 37,
+              "Title": "Profile.cshtml",
+              "DocumentMoniker": "E:\\CDAC\\B car rental dot net\\CarVariantMVC\\CarVariantMVC\\Views\\Users\\Profile.cshtml",
+              "RelativeDocumentMoniker": "CarVariantMVC\\Views\\Users\\Profile.cshtml",
+              "ToolTip": "E:\\CDAC\\B car rental dot net\\CarVariantMVC\\CarVariantMVC\\Views\\Users\\Profile.cshtml",
+              "RelativeToolTip": "CarVariantMVC\\Views\\Users\\Profile.cshtml",
+              "ViewState": "AQIAAAMAAAAAAAAAAAAAACAAAAAkAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-08-14T18:42:15.977Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 39,
+              "Title": "Delete.cshtml",
+              "DocumentMoniker": "E:\\CDAC\\B car rental dot net\\CarVariantMVC\\CarVariantMVC\\Views\\Users\\Delete.cshtml",
+              "RelativeDocumentMoniker": "CarVariantMVC\\Views\\Users\\Delete.cshtml",
+              "ToolTip": "E:\\CDAC\\B car rental dot net\\CarVariantMVC\\CarVariantMVC\\Views\\Users\\Delete.cshtml",
+              "RelativeToolTip": "CarVariantMVC\\Views\\Users\\Delete.cshtml",
+              "ViewState": "AQIAABIAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-08-15T08:53:21.737Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 38,
+              "Title": "Edit.cshtml",
+              "DocumentMoniker": "E:\\CDAC\\B car rental dot net\\CarVariantMVC\\CarVariantMVC\\Views\\Users\\Edit.cshtml",
+              "RelativeDocumentMoniker": "CarVariantMVC\\Views\\Users\\Edit.cshtml",
+              "ToolTip": "E:\\CDAC\\B car rental dot net\\CarVariantMVC\\CarVariantMVC\\Views\\Users\\Edit.cshtml",
+              "RelativeToolTip": "CarVariantMVC\\Views\\Users\\Edit.cshtml",
+              "ViewState": "AQIAAA8AAAAAAAAAAAAAAB4AAAAkAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-08-14T18:42:15.892Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 40,
+              "Title": "Details.cshtml",
+              "DocumentMoniker": "E:\\CDAC\\B car rental dot net\\CarVariantMVC\\CarVariantMVC\\Views\\Variant\\Details.cshtml",
+              "RelativeDocumentMoniker": "CarVariantMVC\\Views\\Variant\\Details.cshtml",
+              "ToolTip": "E:\\CDAC\\B car rental dot net\\CarVariantMVC\\CarVariantMVC\\Views\\Variant\\Details.cshtml",
+              "RelativeToolTip": "CarVariantMVC\\Views\\Variant\\Details.cshtml",
+              "ViewState": "AQIAADkAAAAAAAAAAAAAAE0AAAAJAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-08-15T07:30:01.377Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 41,
+              "Title": "Delete.cshtml",
+              "DocumentMoniker": "E:\\CDAC\\B car rental dot net\\CarVariantMVC\\CarVariantMVC\\Views\\Variant\\Delete.cshtml",
+              "RelativeDocumentMoniker": "CarVariantMVC\\Views\\Variant\\Delete.cshtml",
+              "ToolTip": "E:\\CDAC\\B car rental dot net\\CarVariantMVC\\CarVariantMVC\\Views\\Variant\\Delete.cshtml",
+              "RelativeToolTip": "CarVariantMVC\\Views\\Variant\\Delete.cshtml",
+              "ViewState": "AQIAACoAAAAAAAAAAAAAADkAAAAUAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-08-14T18:42:16.031Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 42,
+              "Title": "AdminDashBoard.cshtml",
+              "DocumentMoniker": "E:\\CDAC\\B car rental dot net\\CarVariantMVC\\CarVariantMVC\\Views\\Admin\\AdminDashBoard.cshtml",
+              "RelativeDocumentMoniker": "CarVariantMVC\\Views\\Admin\\AdminDashBoard.cshtml",
+              "ToolTip": "E:\\CDAC\\B car rental dot net\\CarVariantMVC\\CarVariantMVC\\Views\\Admin\\AdminDashBoard.cshtml",
+              "RelativeToolTip": "CarVariantMVC\\Views\\Admin\\AdminDashBoard.cshtml",
+              "ViewState": "AQIAAAkAAAAAAAAAAADwvxcAAAAJAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-08-14T18:42:15.935Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 43,
+              "Title": "HomeController.cs",
+              "DocumentMoniker": "E:\\CDAC\\B car rental dot net\\CarVariantMVC\\CarVariantMVC\\Controllers\\HomeController.cs",
+              "RelativeDocumentMoniker": "CarVariantMVC\\Controllers\\HomeController.cs",
+              "ToolTip": "E:\\CDAC\\B car rental dot net\\CarVariantMVC\\CarVariantMVC\\Controllers\\HomeController.cs",
+              "RelativeToolTip": "CarVariantMVC\\Controllers\\HomeController.cs",
+              "ViewState": "AQIAABAAAAAAAAAAAAAQwB4AAAAgAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-14T18:46:18.04Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 44,
+              "Title": "_Layout.cshtml.css",
+              "DocumentMoniker": "E:\\CDAC\\B car rental dot net\\CarVariantMVC\\CarVariantMVC\\Views\\Shared\\_Layout.cshtml.css",
+              "RelativeDocumentMoniker": "CarVariantMVC\\Views\\Shared\\_Layout.cshtml.css",
+              "ToolTip": "E:\\CDAC\\B car rental dot net\\CarVariantMVC\\CarVariantMVC\\Views\\Shared\\_Layout.cshtml.css",
+              "RelativeToolTip": "CarVariantMVC\\Views\\Shared\\_Layout.cshtml.css",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
+              "WhenOpened": "2024-08-15T17:23:55.502Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 45,
+              "Title": "Create.cshtml",
+              "DocumentMoniker": "E:\\CDAC\\B car rental dot net\\CarVariantMVC\\CarVariantMVC\\Views\\Users\\Create.cshtml",
+              "RelativeDocumentMoniker": "CarVariantMVC\\Views\\Users\\Create.cshtml",
+              "ToolTip": "E:\\CDAC\\B car rental dot net\\CarVariantMVC\\CarVariantMVC\\Views\\Users\\Create.cshtml",
+              "RelativeToolTip": "CarVariantMVC\\Views\\Users\\Create.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABMAAAAkAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-08-14T21:59:05.164Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 46,
+              "Title": "UserDashBoard.cshtml",
+              "DocumentMoniker": "E:\\CDAC\\B car rental dot net\\CarVariantMVC\\CarVariantMVC\\Views\\User\\UserDashBoard.cshtml",
+              "RelativeDocumentMoniker": "CarVariantMVC\\Views\\User\\UserDashBoard.cshtml",
+              "ToolTip": "E:\\CDAC\\B car rental dot net\\CarVariantMVC\\CarVariantMVC\\Views\\User\\UserDashBoard.cshtml",
+              "RelativeToolTip": "CarVariantMVC\\Views\\User\\UserDashBoard.cshtml",
+              "ViewState": "AQIAAA8AAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-08-14T18:42:15.898Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 47,
+              "Title": "DeleteConfirmed.cshtml",
+              "DocumentMoniker": "E:\\CDAC\\B car rental dot net\\CarVariantMVC\\CarVariantMVC\\Views\\Variant\\DeleteConfirmed.cshtml",
+              "RelativeDocumentMoniker": "CarVariantMVC\\Views\\Variant\\DeleteConfirmed.cshtml",
+              "ToolTip": "E:\\CDAC\\B car rental dot net\\CarVariantMVC\\CarVariantMVC\\Views\\Variant\\DeleteConfirmed.cshtml",
+              "RelativeToolTip": "CarVariantMVC\\Views\\Variant\\DeleteConfirmed.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAcAAAAoAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-08-15T07:40:16.48Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 48,
+              "Title": "VariantController.cs",
+              "DocumentMoniker": "E:\\CDAC\\B car rental dot net\\CarVariantMVC\\CarVariantMVC\\Controllers\\VariantController.cs",
+              "RelativeDocumentMoniker": "CarVariantMVC\\Controllers\\VariantController.cs",
+              "ToolTip": "E:\\CDAC\\B car rental dot net\\CarVariantMVC\\CarVariantMVC\\Controllers\\VariantController.cs",
+              "RelativeToolTip": "CarVariantMVC\\Controllers\\VariantController.cs",
+              "ViewState": "AQIAAJMBAAAAAAAAAAAAAJwBAAAuAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-14T18:42:15.992Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 50,
+              "Title": "User.cs",
+              "DocumentMoniker": "E:\\CDAC\\B car rental dot net\\CarVariantMVC\\CarVariantMVC\\Models\\User.cs",
+              "RelativeDocumentMoniker": "CarVariantMVC\\Models\\User.cs",
+              "ToolTip": "E:\\CDAC\\B car rental dot net\\CarVariantMVC\\CarVariantMVC\\Models\\User.cs",
+              "RelativeToolTip": "CarVariantMVC\\Models\\User.cs",
+              "ViewState": "AQIAAAUAAAAAAAAAAABAwBIAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-14T18:42:15.889Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 51,
+              "Title": "UserController.cs",
+              "DocumentMoniker": "E:\\CDAC\\B car rental dot net\\CarVariantMVC\\CarVariantMVC\\Controllers\\UserController.cs",
+              "RelativeDocumentMoniker": "CarVariantMVC\\Controllers\\UserController.cs",
+              "ToolTip": "E:\\CDAC\\B car rental dot net\\CarVariantMVC\\CarVariantMVC\\Controllers\\UserController.cs",
+              "RelativeToolTip": "CarVariantMVC\\Controllers\\UserController.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAAAcAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-14T18:42:15.886Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 49,
+              "Title": "UsersController.cs",
+              "DocumentMoniker": "E:\\CDAC\\B car rental dot net\\CarVariantMVC\\CarVariantMVC\\Controllers\\UsersController.cs",
+              "RelativeDocumentMoniker": "CarVariantMVC\\Controllers\\UsersController.cs",
+              "ToolTip": "E:\\CDAC\\B car rental dot net\\CarVariantMVC\\CarVariantMVC\\Controllers\\UsersController.cs",
+              "RelativeToolTip": "CarVariantMVC\\Controllers\\UsersController.cs",
+              "ViewState": "AQIAAHUAAAAAAAAAAAAAAJEAAABBAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-14T18:42:15.902Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 52,
+              "Title": "FeedbackViewModel.cs",
+              "DocumentMoniker": "E:\\CDAC\\B car rental dot net\\CarVariantMVC\\CarVariantMVC\\Models\\FeedbackViewModel.cs",
+              "RelativeDocumentMoniker": "CarVariantMVC\\Models\\FeedbackViewModel.cs",
+              "ToolTip": "E:\\CDAC\\B car rental dot net\\CarVariantMVC\\CarVariantMVC\\Models\\FeedbackViewModel.cs",
+              "RelativeToolTip": "CarVariantMVC\\Models\\FeedbackViewModel.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAABXAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-14T18:42:15.883Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 53,
+              "Title": "UserRegistrationViewModel.cs",
+              "DocumentMoniker": "E:\\CDAC\\B car rental dot net\\CarVariantMVC\\CarVariantMVC\\Models\\UserRegistrationViewModel.cs",
+              "RelativeDocumentMoniker": "CarVariantMVC\\Models\\UserRegistrationViewModel.cs",
+              "ToolTip": "E:\\CDAC\\B car rental dot net\\CarVariantMVC\\CarVariantMVC\\Models\\UserRegistrationViewModel.cs",
+              "RelativeToolTip": "CarVariantMVC\\Models\\UserRegistrationViewModel.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAAAiAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-14T18:42:15.942Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 54,
+              "Title": "CompaniesController.cs",
+              "DocumentMoniker": "E:\\CDAC\\B car rental dot net\\CarVariantMVC\\CarVariantMVC\\Controllers\\CompaniesController.cs",
+              "RelativeDocumentMoniker": "CarVariantMVC\\Controllers\\CompaniesController.cs",
+              "ToolTip": "E:\\CDAC\\B car rental dot net\\CarVariantMVC\\CarVariantMVC\\Controllers\\CompaniesController.cs",
+              "RelativeToolTip": "CarVariantMVC\\Controllers\\CompaniesController.cs",
+              "ViewState": "AQIAAAMAAAAAAAAAAAAAADAAAAAlAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-14T18:42:15.953Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 57,
+              "Title": "BookingsController.cs",
+              "DocumentMoniker": "E:\\CDAC\\B car rental dot net\\CarVariantMVC\\CarVariantMVC\\Controllers\\BookingsController.cs",
+              "RelativeDocumentMoniker": "CarVariantMVC\\Controllers\\BookingsController.cs",
+              "ToolTip": "E:\\CDAC\\B car rental dot net\\CarVariantMVC\\CarVariantMVC\\Controllers\\BookingsController.cs",
+              "RelativeToolTip": "CarVariantMVC\\Controllers\\BookingsController.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAEQAAAAiAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-14T18:42:15.956Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 55,
+              "Title": "CarVariantTestContext.cs",
+              "DocumentMoniker": "E:\\CDAC\\B car rental dot net\\CarVariantMVC\\CarVariantMVC\\Models\\CarVariantTestContext.cs",
+              "RelativeDocumentMoniker": "CarVariantMVC\\Models\\CarVariantTestContext.cs",
+              "ToolTip": "E:\\CDAC\\B car rental dot net\\CarVariantMVC\\CarVariantMVC\\Models\\CarVariantTestContext.cs",
+              "RelativeToolTip": "CarVariantMVC\\Models\\CarVariantTestContext.cs",
+              "ViewState": "AQIAAAwAAAAAAAAAAAAAAAYAAAA2AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-14T18:42:15.96Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 56,
+              "Title": "AdminDashboardViewModel.cs",
+              "DocumentMoniker": "E:\\CDAC\\B car rental dot net\\CarVariantMVC\\CarVariantMVC\\Models\\AdminDashboardViewModel.cs",
+              "RelativeDocumentMoniker": "CarVariantMVC\\Models\\AdminDashboardViewModel.cs",
+              "ToolTip": "E:\\CDAC\\B car rental dot net\\CarVariantMVC\\CarVariantMVC\\Models\\AdminDashboardViewModel.cs",
+              "RelativeToolTip": "CarVariantMVC\\Models\\AdminDashboardViewModel.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAcAAAAtAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-14T18:42:15.964Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 58,
+              "Title": "VariantViewModel.cs",
+              "DocumentMoniker": "E:\\CDAC\\B car rental dot net\\CarVariantMVC\\CarVariantMVC\\Models\\VariantViewModel.cs",
+              "RelativeDocumentMoniker": "CarVariantMVC\\Models\\VariantViewModel.cs",
+              "ToolTip": "E:\\CDAC\\B car rental dot net\\CarVariantMVC\\CarVariantMVC\\Models\\VariantViewModel.cs",
+              "RelativeToolTip": "CarVariantMVC\\Models\\VariantViewModel.cs",
+              "ViewState": "AQIAAAMAAAAAAAAAAAAAABIAAAAwAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-14T18:42:15.989Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 59,
+              "Title": "Variant.cs",
+              "DocumentMoniker": "E:\\CDAC\\B car rental dot net\\CarVariantMVC\\CarVariantMVC\\Models\\Variant.cs",
+              "RelativeDocumentMoniker": "CarVariantMVC\\Models\\Variant.cs",
+              "ToolTip": "E:\\CDAC\\B car rental dot net\\CarVariantMVC\\CarVariantMVC\\Models\\Variant.cs",
+              "RelativeToolTip": "CarVariantMVC\\Models\\Variant.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA0AAAAmAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-14T18:42:16.011Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 60,
+              "Title": "Company.cs",
+              "DocumentMoniker": "E:\\CDAC\\B car rental dot net\\CarVariantMVC\\CarVariantMVC\\Models\\Company.cs",
+              "RelativeDocumentMoniker": "CarVariantMVC\\Models\\Company.cs",
+              "ToolTip": "E:\\CDAC\\B car rental dot net\\CarVariantMVC\\CarVariantMVC\\Models\\Company.cs",
+              "RelativeToolTip": "CarVariantMVC\\Models\\Company.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA0AAABVAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-14T18:42:16.028Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 61,
+              "Title": "LoginViewModel.cs",
+              "DocumentMoniker": "E:\\CDAC\\B car rental dot net\\CarVariantMVC\\CarVariantMVC\\Models\\LoginViewModel.cs",
+              "RelativeDocumentMoniker": "CarVariantMVC\\Models\\LoginViewModel.cs",
+              "ToolTip": "E:\\CDAC\\B car rental dot net\\CarVariantMVC\\CarVariantMVC\\Models\\LoginViewModel.cs",
+              "RelativeToolTip": "CarVariantMVC\\Models\\LoginViewModel.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAcAAAABAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-14T18:42:16.058Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 62,
+              "Title": "BookingViewModel.cs",
+              "DocumentMoniker": "E:\\CDAC\\B car rental dot net\\CarVariantMVC\\CarVariantMVC\\Models\\BookingViewModel.cs",
+              "RelativeDocumentMoniker": "CarVariantMVC\\Models\\BookingViewModel.cs",
+              "ToolTip": "E:\\CDAC\\B car rental dot net\\CarVariantMVC\\CarVariantMVC\\Models\\BookingViewModel.cs",
+              "RelativeToolTip": "CarVariantMVC\\Models\\BookingViewModel.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA8AAAABAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-14T18:42:16.063Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 63,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "E:\\CDAC\\B car rental dot net\\CarVariantMVC\\CarVariantMVC\\appsettings.json",
+              "RelativeDocumentMoniker": "CarVariantMVC\\appsettings.json",
+              "ToolTip": "E:\\CDAC\\B car rental dot net\\CarVariantMVC\\CarVariantMVC\\appsettings.json",
+              "RelativeToolTip": "CarVariantMVC\\appsettings.json",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAABhAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2024-08-14T18:42:16.067Z"
+            }
+          ]
+        },
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": -1,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{34e76e81-ee4a-11d0-ae2e-00a0c90fffc3}"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

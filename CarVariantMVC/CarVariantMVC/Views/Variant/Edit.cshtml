@@ -1,0 +1,208 @@
+﻿@model CarVariantMVC.Models.VariantViewModel
+
+@{
+    ViewData["Title"] = "Edit Variant";
+    Layout = null;
+}
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Edit Variant</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" />
+</head>
+<body>
+    <!-- Sidebar -->
+    @Html.Partial("_AdminNavbar") <!-- Include the admin navbar -->
+    <!-- Main Content -->
+    <div class="content">
+        <div class="container">
+            <h2 style="color:white">Edit Variant</h2>
+
+            <!-- Form Container -->
+            <div class="card">
+              
+                <div class="card-body">
+                    <form asp-action="Edit" enctype="multipart/form-data" method="post">
+                        <input type="hidden" asp-for="Id" />
+
+                        <div class="form-row">
+                            <!-- Dropdown for selecting the company -->
+                            <div class="form-group col-md-6">
+                                <label asp-for="CompanyId">Select Company</label>
+                                <select asp-for="CompanyId" class="form-control" asp-items="ViewBag.CompanyList">
+                                    <option value="">-- Select Company --</option>
+                                </select>
+                                <span asp-validation-for="CompanyId" class="text-danger"></span>
+                            </div>
+
+                            <!-- Dropdown for selecting the city (Hardcoded) -->
+                            <div class="form-group col-md-6">
+                                <label asp-for="City">Select City</label>
+                                <select asp-for="City" class="form-control">
+                                    <option value="Mumbai" selected="@((Model.City == "Mumbai") ? "selected" : "")">Mumbai</option>
+                                    <option value="Chennai" selected="@((Model.City == "Chennai") ? "selected" : "")">Chennai</option>
+                                    <option value="Pune" selected="@((Model.City == "Pune") ? "selected" : "")">Pune</option>
+                                    <option value="Kanpur" selected="@((Model.City == "Kanpur") ? "selected" : "")">Kanpur</option>
+                                </select>
+                                <span asp-validation-for="City" class="text-danger"></span>
+                            </div>
+                        </div>
+
+                        <div class="form-row">
+                            <!-- Dropdown for selecting the status (Hardcoded) -->
+                            <div class="form-group col-md-6">
+                                <label asp-for="Status">Status</label>
+                                <select asp-for="Status" class="form-control">
+                                    <option value="available" selected="@((Model.Status == "available") ? "selected" : "")">Available</option>
+                                    <option value="not available" selected="@((Model.Status == "not available") ? "selected" : "")">Not Available</option>
+                                </select>
+                                <span asp-validation-for="Status" class="text-danger"></span>
+                            </div>
+                            <div class="form-group col-md-6">
+                                <label>AC</label>
+                                <div class="form-check">
+                                    <input asp-for="Isac" type="checkbox" class="form-check-input" />
+                                    <label class="form-check-label" for="Isac">Available</label>
+                                </div>
+                                <span asp-validation-for="Isac" class="text-danger"></span>
+                            </div>
+                        </div>
+
+                        <!-- Input fields for other variant properties -->
+                        <div class="form-row">
+                            <div class="form-group col-md-6">
+                                <label asp-for="Name">Name</label>
+                                <input asp-for="Name" class="form-control" />
+                                <span asp-validation-for="Name" class="text-danger"></span>
+                            </div>
+
+                            <div class="form-group col-md-6">
+                                <label asp-for="ModelNumber">Model Number</label>
+                                <input asp-for="ModelNumber" class="form-control" />
+                                <span asp-validation-for="ModelNumber" class="text-danger"></span>
+                            </div>
+                        </div>
+
+                        <div class="form-row">
+                            <div class="form-group col-md-6">
+                                <label asp-for="FuelType">Fuel Type</label>
+                                <input asp-for="FuelType" class="form-control" />
+                                <span asp-validation-for="FuelType" class="text-danger"></span>
+                            </div>
+
+                            <div class="form-group col-md-6">
+                                <label asp-for="SeatingCapacity">Seating Capacity</label>
+                                <input asp-for="SeatingCapacity" class="form-control" />
+                                <span asp-validation-for="SeatingCapacity" class="text-danger"></span>
+                            </div>
+                        </div>
+
+                        <div class="form-row">
+                            <div class="form-group col-md-6">
+                                <label asp-for="PricePerDay">Price Per Day</label>
+                                <input asp-for="PricePerDay" class="form-control" />
+                                <span asp-validation-for="PricePerDay" class="text-danger"></span>
+                            </div>
+
+                            <div class="form-group col-md-6">
+                                <label asp-for="Year">Year</label>
+                                <input asp-for="Year" class="form-control" />
+                                <span asp-validation-for="Year" class="text-danger"></span>
+                            </div>
+                        </div>
+
+                        
+
+                        <div class="form-group">
+                            <label asp-for="Description">Description</label>
+                            <textarea asp-for="Description" class="form-control"></textarea>
+                            <span asp-validation-for="Description" class="text-danger"></span>
+                        </div>
+
+                        <div class="form-group">
+                            <label>Current Image</label>
+                            @if (!string.IsNullOrEmpty(Model.Image))
+                            {
+                                <img src="@Url.Content("~/images/" + Model.Image)" alt="@Model.Name" width="100" height="100" />
+                            }
+                            else
+                            {
+                                <p>No Image</p>
+                            }
+                        </div>
+
+                        <div class="form-group">
+                            <label asp-for="ImageFile">Upload New Image</label>
+                            <input type="file" asp-for="ImageFile" class="form-control" />
+                            <span asp-validation-for="ImageFile" class="text-danger"></span>
+                        </div>
+
+                        <button type="submit" class="btn btn-primary">Save Changes</button>
+                        <a asp-action="Index" class="btn btn-secondary">Back to List</a>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+
+    <style>
+        body {
+            background-image: url('/images/55.jpg'); /* Update with the correct path to your image */
+            background-size: cover;
+            background-position: center;
+            background-repeat: no-repeat;
+            padding: 0;
+            font-family: Arial, sans-serif;
+            display: flex;
+            min-height: 100vh;
+            flex-direction: row;
+            margin: 0;
+        }
+
+        .sidebar {
+            position: fixed;
+            top: 0;
+            bottom: 0;
+            left: 0;
+            width: 250px;
+            background-color: #f8f9fa;
+            padding: 15px;
+            border-right: 1px solid #dee2e6;
+        }
+
+        .content {
+            padding: 25px;
+            margin-left: 300px;
+            flex: 1;
+        }
+
+        .card {
+            background-color: rgba(255, 255, 255, 0.7);
+            border: 1px solid #dee2e6;
+            border-radius: .25rem;
+            box-shadow: 0 0 .125rem rgba(0,0,0,.075) !important;
+            padding: 20px;
+        }
+
+        .card-header {
+            background-color: #f8f9fa;
+            border-bottom: 1px solid #dee2e6;
+            padding: .75rem 1.25rem;
+            margin-bottom: 0;
+            font-size: 1.25rem;
+            font-weight: 500;
+        }
+
+        .card-body {
+            padding: 1.25rem;
+        }
+    </style>
+</body>
+</html>
+

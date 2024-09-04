@@ -1,0 +1,281 @@
+﻿@*@model CarVariantMVC.Models.BookingViewModel
+
+@{
+    ViewData["Title"] = "Booking Details";
+    Layout = null; // Set the layout to null
+}
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Booking Details</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" />
+    <style>
+        /* Content Styling */
+        #content {
+            margin-left: 250px;
+            padding: 40px;
+            background-image: url('/images/55.jpg');
+            background-size: cover; /* Ensure the background covers the entire area */
+            background-position: center; /* Center the background image */
+            min-height: 100vh;
+        }
+
+        /* Box Styling */
+        .box {
+            background-color: rgba(255, 255, 255, 0.9); /* Semi-transparent white background */
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.1);
+        }
+
+        /* Navigation Link Styling */
+        .nav-link {
+            color: #fff;
+        }
+
+            .nav-link:hover {
+                background-color: #495057;
+                color: #fff;
+            }
+
+        /* Form Styling */
+        .form-group label {
+            font-weight: bold;
+        }
+
+        .form-group p {
+            margin-top: 0.25rem;
+            margin-bottom: 0;
+        }
+
+        h2 {
+            margin-bottom: 20px;
+        }
+    </style>
+</head>
+<body>
+    <div id="sidebar">
+        @Html.Partial("_UserNavbar") <!-- Include the user navbar -->
+    </div>
+
+    <div id="content">
+        <div class="box">
+            <h2>Booking Details</h2>
+
+            <form asp-controller="AvailableCars" asp-action="CreateBooking" method="post">
+                <input type="hidden" asp-for="VariantId" />
+                <input type="hidden" asp-for="UserId" />
+                <input type="hidden" asp-for="UserName" />
+                <input type="hidden" asp-for="CompanyName" />
+                <input type="hidden" asp-for="VariantName" />
+                <input type="hidden" asp-for="PricePerDay" />
+
+                <div class="form-group">
+                    <label>Variant Name</label>
+                    <p>@Model.VariantName</p>
+                </div>
+
+                <div class="form-group">
+                    <label>Company Name</label>
+                    <p>@Model.CompanyName</p>
+                </div>
+
+                <div class="form-group">
+                    <label>Username</label>
+                    <p>@Model.UserName</p>
+                </div>
+
+                <div class="form-group">
+                    <label>Start Date</label>
+                    <input type="date" asp-for="BookingDate" class="form-control" required />
+                </div>
+
+                <div class="form-group">
+                    <label>Return Date</label>
+                    <input type="date" asp-for="ReturnDate" class="form-control" required />
+                </div>
+
+                <div class="form-group">
+                    <label>Price Per Day</label>
+                    <p>@Model.PricePerDay</p>
+                </div>
+
+                <button type="submit" class="btn btn-primary">Confirm Booking</button>
+            </form>
+
+            <div asp-validation-summary="ModelOnly"></div>
+        </div>
+    </div>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</body>
+</html>*@
+@model CarVariantMVC.Models.BookingViewModel
+
+@{
+    ViewData["Title"] = "Booking Details";
+    Layout = null; // Set the layout to null
+}
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Booking Details</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" />
+    <style>
+        /* Sidebar Styling */
+        
+
+        /* Content Styling */
+        #content {
+            margin-left: 250px;
+            padding: 40px;
+            background-color: #f8f9fa;
+            min-height: 100vh;
+        }
+
+        /* Box Styling */
+        .box {
+            background-color: #fff;
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.1);
+        }
+
+        /* Navigation Link Styling */
+        .nav-link {
+            color: #fff;
+        }
+
+            .nav-link:hover {
+                background-color: #495057;
+                color: #fff;
+            }
+
+        /* Form Styling */
+        .form-group label {
+            font-weight: bold;
+        }
+
+        .form-group p {
+            margin-top: 0.25rem;
+            margin-bottom: 0;
+        }
+
+        h2 {
+            margin-bottom: 20px;
+        }
+
+        .text-danger {
+            font-size: 0.875rem;
+        }
+    </style>
+</head>
+<body>
+    <div id="sidebar">
+        @Html.Partial("_UserNavbar") <!-- Include the user navbar -->
+    </div>
+
+    <div id="content">
+        <div class="box">
+            <h2>Booking Details</h2>
+
+            <form asp-controller="AvailableCars" asp-action="CreateBooking" method="post">
+                <input type="hidden" asp-for="VariantId" />
+                <input type="hidden" asp-for="UserId" />
+                <input type="hidden" asp-for="UserName" />
+                <input type="hidden" asp-for="CompanyName" />
+                <input type="hidden" asp-for="VariantName" />
+                <input type="hidden" asp-for="PricePerDay" />
+
+                <div class="form-group">
+                    <label>Variant Name</label>
+                    <p>@Model.VariantName</p>
+                </div>
+
+                <div class="form-group">
+                    <label>Company Name</label>
+                    <p>@Model.CompanyName</p>
+                </div>
+
+                <div class="form-group">
+                    <label>Username</label>
+                    <p>@Model.UserName</p>
+                </div>
+
+                <div class="form-group">
+                    <label>Start Date</label>
+                    <input type="date" asp-for="BookingDate" id="bookingDate" class="form-control" required />
+                    <span id="startDateError" class="text-danger"></span>
+                </div>
+
+                <div class="form-group">
+                    <label>Return Date</label>
+                    <input type="date" asp-for="ReturnDate" id="returnDate" class="form-control" required />
+                    <span id="returnDateError" class="text-danger"></span>
+                </div>
+
+                <div class="form-group">
+                    <label>Price Per Day</label>
+                    <p>@Model.PricePerDay</p>
+                </div>
+
+                <button type="submit" class="btn btn-primary">Confirm Booking</button>
+            </form>
+
+            <div asp-validation-summary="ModelOnly"></div>
+        </div>
+    </div>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+
+    <script>
+        document.addEventListener('DOMContentLoaded', (event) => {
+            const bookingDateInput = document.getElementById('bookingDate');
+            const returnDateInput = document.getElementById('returnDate');
+            const startDateError = document.getElementById('startDateError');
+            const returnDateError = document.getElementById('returnDateError');
+
+            // Set today's date as the minimum date for the booking start date
+            const today = new Date().toISOString().split('T')[0];
+            bookingDateInput.setAttribute('min', today);
+
+            // Event listener for the start date field
+            bookingDateInput.addEventListener('change', function () {
+                const startDate = new Date(bookingDateInput.value);
+                if (startDate < new Date(today)) {
+                    startDateError.textContent = 'Start Date cannot be in the past.';
+                } else {
+                    startDateError.textContent = '';
+                    updateReturnDateMin(startDate);
+                }
+            });
+
+            // Event listener for the return date field
+            returnDateInput.addEventListener('change', function () {
+                const startDate = new Date(bookingDateInput.value);
+                const returnDate = new Date(returnDateInput.value);
+                if (returnDate <= startDate) {
+                    returnDateError.textContent = 'Return Date must be after the Start Date.';
+                } else {
+                    returnDateError.textContent = '';
+                }
+            });
+
+            function updateReturnDateMin(startDate) {
+                const minReturnDate = new Date(startDate);
+                minReturnDate.setDate(minReturnDate.getDate() + 1);
+                returnDateInput.setAttribute('min', minReturnDate.toISOString().split('T')[0]);
+            }
+        });
+    </script>
+</body>
+</html>
+

@@ -1,0 +1,128 @@
+﻿@model CarVariantMVC.Models.AdminDashboardViewModel
+
+@{
+    Layout = null; // Set layout to null
+}
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Admin Dashboard</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" />
+    <style>
+        /* Body Background Image */
+        body {
+            
+            background-image: url('/images/33.jpg');
+            background-size: cover;
+            background-position: center;
+            background-repeat: no-repeat;
+            margin: 0;
+            padding: 0;
+        }
+
+        /* Sidebar Styling */
+        #sidebar {
+            width: 250px;
+            height: 100vh;
+            position: fixed;
+            top: 0;
+            left: 0;
+            background-color: #343a40; /* Dark background color */
+            color: #fff;
+            padding: 20px;
+            transition: all 0.3s ease;
+        }
+
+        /* Content Styling */
+        #content {
+            margin-left: 250px; /* Sidebar width */
+            padding: 20px;
+            width: calc(100% - 250px); /* Full width minus sidebar */
+            display: flex;
+            justify-content: center; /* Center content horizontally */
+            align-items: center; /* Center content vertically */
+            height: calc(100vh - 40px); /* Full viewport height minus padding */
+        }
+
+        /* Container for Centered Content */
+        .content-container {
+            width: 100%;
+            max-width: 1200px; /* Adjust to your desired maximum width */
+        }
+
+        /* Dashboard Box Styling */
+        .dashboard-box {
+            background-color: rgba(255, 255, 255, 0.8); /* Semi-transparent white background */
+            border: 1px solid #dee2e6;
+            padding: 20px;
+            margin: 10px;
+            text-align: center;
+            height: 150px; /* Increased height */
+            font-size: 1.5em; /* Increased font size */
+            border-radius: 8px; /* Optional: rounded corners */
+        }
+
+            .dashboard-box h3 {
+                color: black; /* Heading color */
+            }
+
+        /* Navigation Link Styling */
+        .nav-link {
+            color: #fff; /* White text color for nav links */
+            padding: 10px 15px; /* Padding for nav links */
+        }
+
+            .nav-link:hover {
+                background-color: #495057; /* Darker background on hover */
+                color: #fff; /* Maintain white text on hover */
+            }
+    </style>
+</head>
+<body>
+    <!-- Sidebar -->
+    @Html.Partial("_AdminNavbar") <!-- Include the navbar partial -->
+    <!-- Main Content -->
+    <div id="content">
+        <div class="content-container">
+            <div class="row">
+                <div class="col-md-6">
+                    <div class="dashboard-box">
+                        <h3>Companies Registered</h3>
+                        <p>@Model.CompanyCount</p>
+                    </div>
+                </div>
+                <div class="col-md-6">
+                    <div class="dashboard-box">
+                        <h3>Variants Registered</h3>
+                        <p>@Model.VariantCount</p>
+                    </div>
+                </div>
+                <div class="col-md-6">
+                    <div class="dashboard-box">
+                        <h3>Customers Registered</h3>
+                        <p>@Model.CustomerCount</p>
+                    </div>
+                </div>
+                <div class="col-md-6">
+                    <div class="dashboard-box">
+                        <h3>Bookings Done</h3>
+                        <p>@Model.BookingCount</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+
+    <!-- Popper.js for Bootstrap -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/2.11.6/umd/popper.min.js" integrity="sha384-oBqDVmMz4fnFO9gybR9YYkSHbSS16D7m+4JjLvV2M5Zy5cfDI3m2bF6N0dxlks4O" crossorigin="anonymous"></script>
+
+    <!-- Bootstrap JavaScript -->
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-wXx85VhNwEv5b8+P2KxKQmeY/3d6AP0F+4aD+5q8h2dshdVGT+Sx/ug5eSmANhAk" crossorigin="anonymous"></script>
+</body>
+</html>

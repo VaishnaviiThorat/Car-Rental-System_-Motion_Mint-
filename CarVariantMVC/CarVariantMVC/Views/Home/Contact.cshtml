@@ -1,0 +1,99 @@
+﻿@{
+    ViewBag.Title = "Contact Us";
+}
+
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>@ViewBag.Title</title>
+    <link rel="stylesheet" type="text/css" href="~/css/home_contact.css" />
+    <!-- Font Awesome for icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+</head>
+<body>
+    <main>
+        <section class="contact-info">
+            <div class="card">
+                <i class="fas fa-envelope"></i>
+                <h3>Email</h3>
+                <p>contact@motionmint.com</p>
+            </div>
+            <div class="card">
+                <i class="fas fa-map-marker-alt"></i>
+                <h3>Address</h3>
+                <p>1234 Main Street, Suite 567<br>City, Country, 12345</p>
+            </div>
+            <div class="card">
+                <i class="fas fa-phone-alt"></i>
+                <h3>Phone</h3>
+                <p>(123) 456-7890</p>
+            </div>
+        </section>
+
+        <div>
+            <button class="faq-question"
+                    style="font-size: 2rem; font-weight: bold; text-align: center; color:darkblue; background-color:ivory; border: none; padding: 10px 20px; border-radius: 5px; margin-bottom: 1.5rem;">
+                FAQ's
+            </button>
+        </div>
+
+        <section class="faq">
+            
+            
+            <br />
+            <div class="faq-item">
+                <button class="faq-question">How can I rent a car?</button>
+                <div class="faq-answer">
+                    <p>To rent a car, simply visit our website and browse our fleet. Select the car you want, choose your rental dates, and follow the checkout process. You can also contact us directly for personalized assistance.</p>
+                </div>
+            </div>
+            <div class="faq-item">
+                <button class="faq-question">What are the requirements to rent a car?</button>
+                <div class="faq-answer">
+                    <p>You need to be at least 21 years old and have a valid driver’s license. Some vehicles may require you to be 25 years old. A credit card for payment and a valid ID are also necessary.</p>
+                </div>
+            </div>
+            <div class="faq-item">
+                <button class="faq-question">What is included in the rental fee?</button>
+                <div class="faq-answer">
+                    <p>The rental fee generally includes the use of the vehicle, basic insurance, and unlimited mileage. Additional options such as GPS or child seats are available for an extra fee.</p>
+                </div>
+            </div>
+            <div class="faq-item">
+                <button class="faq-question">Can I modify or cancel my reservation?</button>
+                <div class="faq-answer">
+                    <p>Yes, you can modify or cancel your reservation through our website or by contacting our customer service. Please note that changes or cancellations might be subject to certain fees depending on the timing and conditions of your booking.</p>
+                </div>
+            </div>
+        </section>
+    </main>
+    <footer>
+        <!-- Footer content (if any) -->
+    </footer>
+    <!-- Include JavaScript for accordion functionality -->
+    <script src="~/js/faq.js"></script>
+    <script>
+
+        document.addEventListener('DOMContentLoaded', function () {
+            var faqQuestions = document.querySelectorAll('.faq-question');
+
+            faqQuestions.forEach(function (question) {
+                question.addEventListener('click', function () {
+                    var answer = this.nextElementSibling;
+
+                    // Toggle visibility
+                    if (answer.style.display === 'block') {
+                        answer.style.display = 'none';
+                    } else {
+                        answer.style.display = 'block';
+                    }
+                });
+            });
+        });
+
+    </script>
+
+</body>
+</html>

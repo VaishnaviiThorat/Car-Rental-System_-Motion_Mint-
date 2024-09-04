@@ -1,0 +1,80 @@
+﻿@*
+    For more information on enabling MVC for empty projects, visit https://go.microsoft.com/fwlink/?LinkID=397860
+*@
+@{
+}
+@model CarVariantMVC.Models.VariantViewModel
+@{
+    ViewData["Title"] = "DeleteConfirmed Variant";
+    Layout = null;
+}
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <!-- Include Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" />
+</head>
+<body>
+
+    @Html.Partial("_AdminNavbar") <!-- Include the admin sidebar -->
+
+    <div id="content" class="flex-grow-1 p-4">
+        <div class="container mt-4">
+            <h2 class="mb-4">Delete Variant</h2>
+            <div class="alert alert-success">
+                The variant has been successfully deleted.
+            </div>
+
+            <!-- Redirect to Index Page after deletion -->
+            <div class="card">
+                <div class="card-body">
+                    <p>The variant <strong>@Model.Name</strong> has been deleted.</p>
+                    <a href="@Url.Action("Index", "Variant")" class="btn btn-primary">Return to Index</a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Include Bootstrap JavaScript -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+
+    <!-- Sidebar and Content Styling -->
+    <style>
+        /* Sidebar Styling */
+        #sidebar {
+            width: 250px;
+            height: 100vh;
+            position: fixed;
+            top: 0;
+            left: 0;
+            background-color: #f8f9fa;
+            border-right: 1px solid #dee2e6;
+            transition: all 0.3s ease;
+        }
+
+        /* Content Styling */
+        #content {
+            margin-left: 250px;
+            transition: all 0.3s ease;
+            padding: 20px;
+            width: calc(100% - 250px);
+        }
+
+        /* Card Styling */
+        .card {
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            padding: 20px;
+            margin-top: 20px;
+        }
+
+        /* Navigation Link Styling */
+        .nav-link {
+            padding: 10px 0;
+        }
+    </style>
+</body>
+</html>

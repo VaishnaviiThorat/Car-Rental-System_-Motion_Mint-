@@ -1,0 +1,113 @@
+﻿@model CarVariantMVC.Models.User
+
+@{
+    Layout = null; // Ensures that the default _Layout is not used
+    ViewData["Title"] = "User Details";
+}
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>@ViewData["Title"]</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" />
+    <style>
+        body {
+            background-image: url('/images/1c75c43f-e46a-4ce5-81c2-159f7dbc5264_safari.jpg');
+            background-size: cover;
+            background-position: center;
+            background-repeat: no-repeat;
+            height: 100vh;
+            margin: 0;
+            padding: 0;
+        }
+
+        
+
+        .content {
+            margin-left: 270px; /* Ensure content is not under the sidebar */
+            padding: 20px;
+            position: relative;
+            align-items: center;
+            justify-content: center;
+        }
+
+        .card {
+            background-color: rgba(255, 255, 255, 0.8); /* Semi-transparent white background */
+          
+            box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.1);
+            border: none;
+            border-radius: 8px; 
+        }
+
+        .card-header {
+           
+            color:black;
+            border-bottom: none;
+            border-radius: 8px 8px 0 0; /* Rounded top corners */
+        }
+
+        .card-body {
+            background-color: rgba(255, 255, 255, 0.7);
+            padding: 20px;
+            align-content:center;
+        }
+    </style>
+</head>
+<body>
+
+    <div class="sidebar">
+        @Html.Partial("_UserNavbar") <!-- Include User Navbar -->
+    </div>
+
+    <div class="content">
+        <div class="card">
+            <div class="card-header">
+                <h4>User Details</h4>
+            </div>
+            <div class="card-body">
+                
+                <dl class="row">
+                    <dt class="col-sm-3">
+                        @Html.DisplayNameFor(model => model.Username)
+                    </dt>
+                    <dd class="col-sm-9">
+                        @Html.DisplayFor(model => model.Username)
+                    </dd>
+                    <dt class="col-sm-3">
+                        @Html.DisplayNameFor(model => model.Email)
+                    </dt>
+                    <dd class="col-sm-9">
+                        @Html.DisplayFor(model => model.Email)
+                    </dd>
+                    <dt class="col-sm-3">
+                        @Html.DisplayNameFor(model => model.FirstName)
+                    </dt>
+                    <dd class="col-sm-9">
+                        @Html.DisplayFor(model => model.FirstName)
+                    </dd>
+                    <dt class="col-sm-3">
+                        @Html.DisplayNameFor(model => model.LastName)
+                    </dt>
+                    <dd class="col-sm-9">
+                        @Html.DisplayFor(model => model.LastName)
+                    </dd>
+                    <dt class="col-sm-3">
+                        @Html.DisplayNameFor(model => model.PhoneNumber)
+                    </dt>
+                    <dd class="col-sm-9">
+                        @Html.DisplayFor(model => model.PhoneNumber)
+                    </dd>
+                </dl>
+                <a asp-action="Edit" asp-controller="Users" asp-route-id="@Model?.Id" class="btn btn-primary">Edit</a>
+            </div>
+        </div>
+    </div>
+
+    <!-- jQuery and Bootstrap JavaScript -->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+
+</body>
+</html>

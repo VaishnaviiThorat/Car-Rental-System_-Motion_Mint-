@@ -1,0 +1,132 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link href="~/lib/bootstrap/dist/css/bootstrap.min.css" rel="stylesheet" />
+    <script src="~/lib/jquery/dist/jquery.min.js"></script>
+    <script src="~/lib/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" integrity="sha384-oW1Jjq9ZBTrU0SKZcV5u5p19eVf5kDoNZb+PbN8iXAwjvhdVwD4Fb7hxTxSh/T8i" crossorigin="anonymous">
+    <title>@ViewData["Title"]</title>
+    <style>
+        .navbar {
+            margin-bottom: 20px;
+        }
+
+        .footer {
+            background-color: #343a40; /* Dark background */
+            color: #f8f9fa; /* Light text color */
+        }
+
+        .footer-section {
+            flex: 1;
+            margin: 0 15px; /* Space between sections */
+        }
+
+            .footer-section h5 {
+                margin-bottom: 15px; /* Space below headings */
+            }
+
+        hr.bg-light {
+            border-top: 1px solid #f8f9fa; /* Light horizontal line */
+        }
+
+        .text-center {
+            text-align: center;
+        }
+
+        .d-flex {
+            display: flex;
+        }
+
+        .justify-content-between {
+            justify-content: space-between;
+        }
+
+        .flex-wrap {
+            flex-wrap: wrap;
+        }
+
+
+        body {
+            display: flex;
+            flex-direction: column;
+            min-height: 100vh;
+            font-family: Arial, sans-serif; /* Ensure there's a fallback font */
+        }
+
+        .container {
+            flex: 1;
+        }
+
+        .navbar-brand img {
+            height: 40px; /* Adjust the height as needed */
+            width: auto;
+            margin-right: 10px; /* Space between image and text */
+        }
+    </style>
+</head>
+<body>
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <div class="container">
+            <a class="navbar-brand" href="/" style="color: #ff5733;">
+                <img src="~/images/screenshot 2024-08-15 193310.png" alt="MotionMint Logo" />
+                MotionMint
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav me-auto">
+                    <li class="nav-item">
+                        <a class="nav-link" asp-controller="Home" asp-action="About">About</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" asp-controller="Home" asp-action="Contact">Contact</a>
+                    </li>
+                </ul>
+                <div class="d-flex">
+                    <a class="btn btn-outline-success me-2" href="/Account/Register">Register</a>
+                    <a class="btn btn-outline-success" href="/Account/Login">Login</a>
+                </div>
+            </div>
+        </div>
+    </nav>
+
+    <div class="container mt-4">
+        @RenderBody()
+    </div>
+    <br/>
+    <footer class="footer bg-dark text-light py-4">
+        <div class="container">
+            <div class="d-flex justify-content-between flex-wrap">
+                <!-- Company Info -->
+                <div class="footer-section">
+                    <p>Car Rental System provides top-notch vehicles for rent at affordable prices. Whether you're looking for a compact car or a luxury vehicle, we've got you covered.</p>
+                </div>
+
+                <!-- Contact Info -->
+                <div class="footer-section">
+                    <h5>Contact Us</h5>
+                    <p>Email: info@motionmint.com</p>
+                    <p>Phone: +1 9898878776</p>
+                </div>
+
+                <!-- Cities -->
+                <div class="footer-section">
+                    <h5>We Are Available In</h5>
+                    <p>Mumbai</p>
+                    <p>Pune</p>
+                    <p>Kanpur</p>
+                </div>
+            </div>
+
+            <hr class="my-3 bg-light" />
+
+            <div class="text-center">
+                <p class="mb-0">&copy; 2024 MotionMint. All Rights Reserved.</p>
+            </div>
+        </div>
+    </footer>
+</body>
+</html>

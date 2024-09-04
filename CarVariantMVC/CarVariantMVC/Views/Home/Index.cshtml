@@ -1,0 +1,194 @@
+﻿@{
+    ViewData["Title"] = "Home Page";
+}
+
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>@ViewData["Title"]</title>
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" />
+    <!-- Owl Carousel CSS -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.min.css" />
+    <style>
+        body {
+            background-color: white;
+        }
+
+        .carousel-item img {
+            object-fit: cover; /* Ensures the image covers the whole area */
+        }
+
+        .owl-carousel .item {
+            position: relative;
+            transition: all 0.3s ease-in-out;
+            display: flex;
+            justify-content: center; /* Centers the card horizontally */
+            margin-right: 15px; /* Increase the space between cards */
+        }
+
+            .owl-carousel .item:last-child {
+                margin-right: 0; /* Remove margin for the last item */
+            }
+
+        .owl-carousel .card {
+            width: 100%;
+            height: 350px; /* Set a fixed height for the card */
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between;
+            border-radius: 15px; /* Add border radius to the card */
+            overflow: hidden; /* Ensures the border radius applies to children */
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Optional: Add shadow for a more polished look */
+        }
+
+        .owl-carousel .card-img-top {
+            height: 200px; /* Fixed height for the image */
+            object-fit: cover;
+        }
+
+        .owl-nav button {
+            background-color: #007bff;
+            border: none;
+            color: #fff;
+            border-radius: 50%;
+            padding: 10px;
+        }
+
+        .owl-item:hover {
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+            background-color: #f0f0f0; /* Light shade on hover */
+            transform: scale(1.05); /* Slightly increase the size on hover */
+        }
+
+        .card-body {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            padding: 10px;
+        }
+    </style>
+</head>
+<body>
+    <div class="container mt-4">
+        <div class="text-center">
+            <h1 class="display-4" style="font-family: 'Arial', sans-serif; font-weight: bold; color:cornflowerblue;">Welcome to MotionMint</h1>
+
+            <h3 style="font-family: 'Georgia', serif; font-weight: normal; color:darkblue;">Car Rental System</h3>
+
+        </div>
+
+        <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <img src="~/images/rent a now.png" class="d-block w-100" alt="...">
+                </div>
+                <div class="carousel-item">
+                    <img src="~/images/bb.png" class="d-block w-100" alt="...">
+                </div>
+                <div class="carousel-item">
+                    <img src="~/images/dd.png" class="d-block w-100" alt="...">
+                </div>
+                <div class="carousel-item">
+                    <img src="~/images/ee.png" class="d-block w-100" alt="...">
+                </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span>
+            </button>
+        </div>
+
+        <br/>
+        <div class="special-section border rounded p-4" style="text-align: center; font-size: 24px; font-weight:normal; color: #333;">
+            <p>
+                Motion Mint offers a premier car rental experience designed for convenience and comfort.
+                🚗 With a diverse fleet of well-maintained vehicles, including compact cars and spacious SUVs,
+                we cater to every travel need. Experience the convenience and luxury of our car rental services.
+                ✨ At Motion Mint, we ensure your journey is smooth and memorable. 🌟
+            </p>
+        </div>
+        <br />
+        <div class="image-between">
+            <img src="~/images/out of.png" class="w-100" alt="Special Offer" />
+        </div>
+        </br>
+        <div class="special-section" style="text-align: center; font-size: 24px; font-weight: bold; color: #333;">
+            <p>
+                🚗"Drive Your Dreams:Discover, Explore, and Experience with Motion Mint Car Rentals"🚗
+            </p>
+
+        </div>
+        </br>
+
+        <!-- Owl Carousel -->
+        <div class="container mt-4">
+            <div class="owl-carousel owl-theme">
+                <div class="item">
+                    <div class="card">
+                        <img src="~/images/7-5.png" class="card-img-top" alt="Car 1">
+                        <div class="card-body">
+                            <h5 class="card-title">Compact Cars</h5>
+                            <p class="card-text">Perfect for city driving, our compact cars offer great fuel efficiency and easy parking. Ideal for those who need a reliable and budget-friendly option.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="item">
+                    <div class="card">
+                        <img src="~/images/13-37.png" class="card-img-top" alt="Car 2">
+                        <div class="card-body">
+                            <h5 class="card-title">Luxury Vehicles</h5>
+                            <p class="card-text">Our luxury vehicles offer top-of-the-line features and superior comfort. Perfect for special occasions or when you want to travel in style.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="item">
+                    <div class="card">
+                        <img src="~/images/3-22.png" class="card-img-top" alt="Car 4">
+                        <div class="card-body">
+                            <h5 class="card-title">Sedans</h5>
+                            <p class="card-text">Enjoy a smooth and elegant ride with our sedans. They offer spacious interiors and a comfortable driving experience, ideal for both city and highway travel.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="item">
+                    <div class="card">
+                        <img src="~/images/2-26.png" class="card-img-top" alt="Car 5">
+                        <div class="card-body">
+                            <h5 class="card-title">Vans</h5>
+                            <p class="card-text">Our vans are perfect for group travel or transporting large amounts of cargo. With plenty of room and versatility, they cater to a variety of needs.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Bootstrap JS and dependencies -->
+    <script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popperjs/core@2.9.2/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    <!-- Owl Carousel JS -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"></script>
+    <script>
+        $(document).ready(function () {
+            $(".owl-carousel").owlCarousel({
+                items: 3,
+                loop: true,
+                margin: 30, /* Increased space between cards */
+                nav: true,
+                autoplay: true,
+                autoplayTimeout: 3000,
+                autoplayHoverPause: true
+            });
+        });
+    </script>
+</body>
+</html>
